@@ -1,89 +1,62 @@
-{
-    "coffees": [
-      {
-        "id": 1,
-        "name": "Espresso",
-        "description": "Strong and bold coffee brewed by forcing hot water through finely-ground coffee beans.",
-        "price": 2.50,
-        "image": "https://cdn.pixabay.com/photo/2024/10/06/16/22/coffee-9100588_1280.jpg"
-      },
-      {
-        "id": 2,
-        "name": "Cappuccino",
-        "description": "A rich espresso with steamed milk and topped with a thick layer of milk foam.",
-        "price": 3.00,
-        "image": "https://cdn.pixabay.com/photo/2024/04/18/11/56/ai-generated-8704228_1280.png"
-      },
-      {
-        "id": 3,
-        "name": "Latte",
-        "description": "Smooth and creamy espresso mixed with steamed milk.",
-        "price": 3.50,
-        "image": "https://cdn.pixabay.com/photo/2024/04/18/11/56/ai-generated-8704229_1280.png"
-      },
-      {
-        "id": 4,
-        "name": "Americano",
-        "description": "Espresso with added hot water for a milder flavor.",
-        "price": 2.75,
-        "image": "https://cdn.pixabay.com/photo/2019/03/01/06/43/cafe-4027395_1280.jpg"
-      },
-      {
-        "id": 5,
-        "name": "Mocha",
-        "description": "A delightful combination of espresso, steamed milk, and chocolate syrup.",
-        "price": 4.00,
-        "image": "https://cdn.pixabay.com/photo/2015/11/25/21/54/cafe-mocha-1063007_1280.jpg"
-      },
-      {
-        "id": 6,
-        "name": "Flat White",
-        "description": "A strong coffee with velvety microfoam, popular in Australia and New Zealand.",
-        "price": 3.80,
-        "image": "https://cdn.pixabay.com/photo/2019/04/27/00/44/coffee-4159024_1280.jpg"
-      },
-      {
-        "id": 7,
-        "name": "Affogato",
-        "description": "A scoop of vanilla ice cream topped with a shot of hot espresso.",
-        "price": 3.50,
-        "image": "https://cdn.pixabay.com/photo/2017/08/06/13/57/coffee-2592740_1280.jpg"
-      },
-      {
-        "id": 8,
-        "name": "Cold Brew",
-        "description": "Coffee brewed with cold water for a smooth and refreshing taste.",
-        "price": 3.25,
-        "image": "https://www.simplyrecipes.com/thmb/iCUy4YwLzRlgu_379eKu3UoNwQk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Cold-Brew-Coffee-LEAD-16-428691bcdd594281b2f5dc6dbc8235e4.jpg"
-      },
-      {
-        "id": 9,
-        "name": "Iced Coffee",
-        "description": "Chilled coffee served over ice, perfect for hot days.",
-        "price": 2.50,
-        "image": "https://www.allrecipes.com/thmb/aizVUz1JlBwSPI_hrH4Wu1XFXSE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/21667-easy-iced-coffee-ddmfs-4x3-0093-7becf3932bd64ed7b594d46c02d0889f.jpg"
-      },
-      {
-        "id": 10,
-        "name": "Irish Coffee",
-        "description": "A classic cocktail made with hot coffee, Irish whiskey, and cream.",
-        "price": 5.00,
-        "image": "https://www.realsimple.com/thmb/INflBvkZ4Nll7QR-SzoCsEeiOWA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/how-to-make-irish-coffee-GettyImages-915776530-12623d2b5ba748ba8af2b6a616176a05.jpg"
-      },
-      {
-        "id": 11,
-        "name": "Nitro Coffee",
-        "description": "Cold brew infused with nitrogen for a creamy, frothy texture.",
-        "price": 4.50,
-        "image": "https://ironmountainrefrigeration.com/wp-content/uploads/2023/05/3002_IMR_blog04_1000x700_nitrocoldbrew-1.jpg"
-      },
-      {
-        "id": 12,
-        "name": "Dalgona Coffee",
-        "description": "A whipped coffee drink made with instant coffee, sugar, and hot water.",
-        "price": 3.00,
-        "image": "https://cornercoffeestore.com/wp-content/uploads/2020/10/Dalgona.jpg"
-      }
-    ]
+[
+  {
+      "name": "Affogato",
+      "details": "A shot of espresso poured over a scoop of vanilla ice cream.",
+      "price": "4.50",
+      "image": "https://i.postimg.cc/G3v58TVN/affogoto.jpg"
+  },
+  {
+      "name": "Americano",
+      "details": "Espresso with hot water.",
+      "price": "3.00",
+      "image": "https://i.postimg.cc/tJdSL8Fy/americano.jpg"
+  },
+  {
+      "name": "Cappuccino",
+      "details": "Espresso with steamed milk and milk foam.",
+      "price": "4.00",
+      "image": "https://i.postimg.cc/SNr1VFyf/cappacino.jpg"
+  },
+  {
+      "name": "Cold Brew",
+      "details": "Coffee brewed with cold water over an extended period.",
+      "price": "3.50",
+      "image": "https://i.postimg.cc/xTYFKTSd/cold-brew.jpg"
+  },
+  {
+      "name": "Doppio",
+      "details": "A double shot of espresso.",
+      "price": "3.00",
+      "image": "https://i.postimg.cc/x11x4x8D/doppio.jpg"
+  },
+  {
+      "name": "Espresso",
+      "details": "A strong coffee brewed by forcing steam through finely-ground coffee beans.",
+      "price": "2.50",
+      "image": "https://i.postimg.cc/t4vSQ3n1/espresso.jpg"
+  },
+  {
+      "name": "Fappuccino",
+      "details": "A blended beverage of coffee with milk and ice.",
+      "price": "4.50",
+      "image": "https://i.postimg.cc/Zq9fTW6w/fappacino.jpg"
+  },
+  {
+      "name": "Iced Latte",
+      "details": "Espresso with cold milk served over ice.",
+      "price": "4.00",
+      "image": "https://i.postimg.cc/d0z5DJBw/iced-latte.jpg"
+  },
+  {
+      "name": "Macchiato",
+      "details": "Espresso with a small amount of frothed milk.",
+      "price": "3.50",
+      "image": "https://i.postimg.cc/qRyj3Wbn/macchiato.jpg"
+  },
+  {
+      "name": "Macho",
+      "details": "A strong drink made with espresso and steamed milk.",
+      "price": "4.50",
+      "image": "https://i.postimg.cc/9021t1Kk/macho.jpg"
   }
-  
+]
