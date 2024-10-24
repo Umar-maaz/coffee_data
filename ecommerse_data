@@ -1,0 +1,209 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "items": [
+        {
+          "id": 1,
+          "name": "Smartphone",
+          "price": 299.99,
+          "description": "Latest smartphone with 6GB RAM.",
+          "image_url": "https://example.com/images/smartphone.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Laptop",
+          "price": 799.99,
+          "description": "High-performance laptop with 16GB RAM.",
+          "image_url": "https://example.com/images/laptop.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Smartwatch",
+          "price": 199.99,
+          "description": "Fitness tracking smartwatch.",
+          "image_url": "https://example.com/images/smartwatch.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Tablet",
+          "price": 399.99,
+          "description": "10-inch tablet with 64GB storage.",
+          "image_url": "https://example.com/images/tablet.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Headphones",
+          "price": 49.99,
+          "description": "Noise-cancelling headphones.",
+          "image_url": "https://example.com/images/headphones.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Shirts",
+      "items": [
+        {
+          "id": 6,
+          "name": "Casual Shirt",
+          "price": 19.99,
+          "description": "Comfortable cotton shirt.",
+          "image_url": "https://example.com/images/casual_shirt.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Formal Shirt",
+          "price": 29.99,
+          "description": "Stylish formal shirt for office wear.",
+          "image_url": "https://example.com/images/formal_shirt.jpg"
+        },
+        {
+          "id": 8,
+          "name": "T-Shirt",
+          "price": 14.99,
+          "description": "Graphic T-shirt with vibrant prints.",
+          "image_url": "https://example.com/images/tshirt.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Denim Shirt",
+          "price": 34.99,
+          "description": "Classic denim shirt for casual wear.",
+          "image_url": "https://example.com/images/denim_shirt.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Hoodie",
+          "price": 39.99,
+          "description": "Warm hoodie with kangaroo pocket.",
+          "image_url": "https://example.com/images/hoodie.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Shoes",
+      "items": [
+        {
+          "id": 11,
+          "name": "Running Shoes",
+          "price": 49.99,
+          "description": "Lightweight running shoes with good grip.",
+          "image_url": "https://example.com/images/running_shoes.jpg"
+        },
+        {
+          "id": 12,
+          "name": "Sneakers",
+          "price": 59.99,
+          "description": "Stylish sneakers for casual wear.",
+          "image_url": "https://example.com/images/sneakers.jpg"
+        },
+        {
+          "id": 13,
+          "name": "Formal Shoes",
+          "price": 79.99,
+          "description": "Elegant formal shoes for office.",
+          "image_url": "https://example.com/images/formal_shoes.jpg"
+        },
+        {
+          "id": 14,
+          "name": "Boots",
+          "price": 89.99,
+          "description": "Durable leather boots for hiking.",
+          "image_url": "https://example.com/images/boots.jpg"
+        },
+        {
+          "id": 15,
+          "name": "Sandals",
+          "price": 24.99,
+          "description": "Comfortable sandals for summer.",
+          "image_url": "https://example.com/images/sandals.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Watches",
+      "items": [
+        {
+          "id": 16,
+          "name": "Analog Watch",
+          "price": 99.99,
+          "description": "Classic analog watch with leather strap.",
+          "image_url": "https://example.com/images/analog_watch.jpg"
+        },
+        {
+          "id": 17,
+          "name": "Digital Watch",
+          "price": 49.99,
+          "description": "Digital watch with multiple features.",
+          "image_url": "https://example.com/images/digital_watch.jpg"
+        },
+        {
+          "id": 18,
+          "name": "Luxury Watch",
+          "price": 299.99,
+          "description": "Premium luxury watch with gold-plated body.",
+          "image_url": "https://example.com/images/luxury_watch.jpg"
+        },
+        {
+          "id": 19,
+          "name": "Smart Watch",
+          "price": 199.99,
+          "description": "Advanced smartwatch with health tracking.",
+          "image_url": "https://example.com/images/smart_watch.jpg"
+        },
+        {
+          "id": 20,
+          "name": "Sport Watch",
+          "price": 79.99,
+          "description": "Waterproof sport watch with rugged design.",
+          "image_url": "https://example.com/images/sport_watch.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sports",
+      "items": [
+        {
+          "id": 21,
+          "name": "Football",
+          "price": 19.99,
+          "description": "Official size football.",
+          "image_url": "https://example.com/images/football.jpg"
+        },
+        {
+          "id": 22,
+          "name": "Tennis Racket",
+          "price": 49.99,
+          "description": "Lightweight tennis racket.",
+          "image_url": "https://example.com/images/tennis_racket.jpg"
+        },
+        {
+          "id": 23,
+          "name": "Basketball",
+          "price": 29.99,
+          "description": "Indoor/outdoor basketball.",
+          "image_url": "https://example.com/images/basketball.jpg"
+        },
+        {
+          "id": 24,
+          "name": "Yoga Mat",
+          "price": 24.99,
+          "description": "Non-slip yoga mat for exercises.",
+          "image_url": "https://example.com/images/yoga_mat.jpg"
+        },
+        {
+          "id": 25,
+          "name": "Skipping Rope",
+          "price": 9.99,
+          "description": "Durable skipping rope for workouts.",
+          "image_url": "https://example.com/images/skipping_rope.jpg"
+        }
+      ]
+    }
+  ]
+}
