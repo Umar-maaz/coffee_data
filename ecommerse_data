@@ -1,209 +1,697 @@
 {
-  "categories": [
-    {
-      "id": 1,
-      "name": "Electronics",
-      "items": [
-        {
-          "id": 1,
-          "name": "Smartphone",
-          "price": 299.99,
-          "description": "Latest smartphone with 6GB RAM.",
-          "image_url": "https://i.postimg.cc/C1rYMn7J/mobile-image.jpg"
-        },
-        {
-          "id": 2,
-          "name": "Laptop",
-          "price": 799.99,
-          "description": "High-performance laptop with 16GB RAM.",
-          "image_url": "https://i.postimg.cc/ZR54hx8C/laptop-image.jpg"
-        },
-        {
-          "id": 3,
-          "name": "Smartwatch",
-          "price": 199.99,
-          "description": "Fitness tracking smartwatch.",
-          "image_url": "https://i.postimg.cc/rpJMbPtB/watch-image.jpg"
-        },
-        {
-          "id": 4,
-          "name": "Tablet",
-          "price": 399.99,
-          "description": "10-inch tablet with 64GB storage.",
-          "image_url": "https://i.postimg.cc/YSktdHjN/tablet-image.jpg"
-        },
-        {
-          "id": 5,
-          "name": "Headphones",
-          "price": 49.99,
-          "description": "Noise-cancelling headphones.",
-          "image_url": "https://i.postimg.cc/ncjVz26m/headphone-image.jpg"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Shirts",
-      "items": [
-        {
-          "id": 6,
-          "name": "Casual Shirt",
-          "price": 19.99,
-          "description": "Comfortable cotton shirt.",
-          "image_url": "https://i.postimg.cc/Mp1W0TZK/casual-shirt-image.jpg"
-        },
-        {
-          "id": 7,
-          "name": "Formal Shirt",
-          "price": 29.99,
-          "description": "Stylish formal shirt for office wear.",
-          "image_url": "https://i.postimg.cc/Qx28W53y/formal-shirt-image.jpg"
-        },
-        {
-          "id": 8,
-          "name": "T-Shirt",
-          "price": 14.99,
-          "description": "Graphic T-shirt with vibrant prints.",
-          "image_url": "https://i.postimg.cc/3NW82FNP/t-shirt-image.jpg"
-        },
-        {
-          "id": 9,
-          "name": "Denim Shirt",
-          "price": 34.99,
-          "description": "Classic denim shirt for casual wear.",
-          "image_url": "https://i.postimg.cc/y6rYstrB/denim-shirt-image.jpg"
-        },
-        {
-          "id": 10,
-          "name": "Hoodie",
-          "price": 39.99,
-          "description": "Warm hoodie with kangaroo pocket.",
-          "image_url": "https://i.postimg.cc/4xwBKvC6/hoodie-image.jpg"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Shoes",
-      "items": [
-        {
-          "id": 11,
-          "name": "Running Shoes",
-          "price": 49.99,
-          "description": "Lightweight running shoes with good grip.",
-          "image_url": "https://i.postimg.cc/ZRwY9Mb8/running-shoes-image.jpg"
-        },
-        {
-          "id": 12,
-          "name": "Sneakers",
-          "price": 59.99,
-          "description": "Stylish sneakers for casual wear.",
-          "image_url": "https://i.postimg.cc/wvqTjppx/sneakers-image.jpg"
-        },
-        {
-          "id": 13,
-          "name": "Formal Shoes",
-          "price": 79.99,
-          "description": "Elegant formal shoes for office.",
-          "image_url": "https://i.postimg.cc/fbjRsb1g/formal-shoes-image.jpg"
-        },
-        {
-          "id": 14,
-          "name": "Boots",
-          "price": 89.99,
-          "description": "Durable leather boots for hiking.",
-          "image_url": "https://i.postimg.cc/8CVzxvX6/boots-image.jpg"
-        },
-        {
-          "id": 15,
-          "name": "Sandals",
-          "price": 24.99,
-          "description": "Comfortable sandals for summer.",
-          "image_url": "https://i.postimg.cc/P5Dq6yyH/sandals-image.jpg"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Watches",
-      "items": [
-        {
-          "id": 16,
-          "name": "Analog Watch",
-          "price": 99.99,
-          "description": "Classic analog watch with leather strap.",
-          "image_url": "https://i.postimg.cc/pX4TY4Dk/analog-watch-image.jpg"
-        },
-        {
-          "id": 17,
-          "name": "Digital Watch",
-          "price": 49.99,
-          "description": "Digital watch with multiple features.",
-          "image_url": "https://i.postimg.cc/L6n5P2Zn/digital-watch.jpg"
-        },
-        {
-          "id": 18,
-          "name": "Luxury Watch",
-          "price": 299.99,
-          "description": "Premium luxury watch with gold-plated body.",
-          "image_url": "https://i.postimg.cc/mZdhhtkv/luxury-watch.jpg"
-        },
-        {
-          "id": 19,
-          "name": "Smart Watch",
-          "price": 199.99,
-          "description": "Advanced smartwatch with health tracking.",
-          "image_url": "https://i.postimg.cc/2y562fc9/smart-watch.jpg"
-        },
-        {
-          "id": 20,
-          "name": "Sport Watch",
-          "price": 79.99,
-          "description": "Waterproof sport watch with rugged design.",
-          "image_url": "https://i.postimg.cc/tJmgcm8q/sports-watch-image.jpg"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Sports",
-      "items": [
-        {
-          "id": 21,
-          "name": "Football",
-          "price": 19.99,
-          "description": "Official size football.",
-          "image_url": "https://i.postimg.cc/3R1NXwBD/football-image.jpg"
-        },
-        {
-          "id": 22,
-          "name": "Tennis Racket",
-          "price": 49.99,
-          "description": "Lightweight tennis racket.",
-          "image_url": "https://i.postimg.cc/rp6Dc3sz/tennis-racket-image.jpg"
-        },
-        {
-          "id": 23,
-          "name": "Basketball",
-          "price": 29.99,
-          "description": "Indoor/outdoor basketball.",
-          "image_url": "https://i.postimg.cc/7LgfL9J9/basket-ball-image.jpg"
-        },
-        {
-          "id": 24,
-          "name": "Yoga Mat",
-          "price": 24.99,
-          "description": "Non-slip yoga mat for exercises.",
-          "image_url": "https://i.postimg.cc/7ZJ5Fwxp/yoga-mat-image.jpg"
-        },
-        {
-          "id": 25,
-          "name": "Skipping Rope",
-          "price": 9.99,
-          "description": "Durable skipping rope for workouts.",
-          "image_url": "https://i.postimg.cc/PxTNvDmj/skipping-rope-image.jpg"
-        }
-      ]
-    }
-  ]
+  "categories": {
+    "Laptops": [
+      {
+        "name": "Dell XPS 13",
+        "shortDescription": "Ultra-portable laptop with stunning 4K display.",
+        "bestSellingRank": 1,
+        "salePrice": 999.99,
+        "manufacturer": "Dell",
+        "url": "http://www.example.com/dell-xps-13",
+        "type": "Laptop",
+        "image": "https://i.postimg.cc/02Dtnmkb/dell-xps-13.jpg",
+        "customerReviewCount": 1500,
+        "shipping": "Free shipping",
+        "salePrice_range": "901 - 1000",
+        "objectID": "laptop1",
+        "categories": ["Laptops"]
+      },
+      {
+        "name": "Apple MacBook Pro 16",
+        "shortDescription": "High-performance laptop for professionals.",
+        "bestSellingRank": 2,
+        "salePrice": 2399.99,
+        "manufacturer": "Apple",
+        "url": "http://www.example.com/macbook-pro-16",
+        "type": "Laptop",
+        "image": "https://i.postimg.cc/wjzwGvMF/mac-book-pro-16.jpg",
+        "customerReviewCount": 2000,
+        "shipping": "Free shipping",
+        "salePrice_range": "2001 - 2500",
+        "objectID": "laptop2",
+        "categories": ["Laptops"]
+      },
+      {
+        "name": "HP Spectre x360",
+        "shortDescription": "Convertible laptop with stunning design.",
+        "bestSellingRank": 3,
+        "salePrice": 1299.99,
+        "manufacturer": "HP",
+        "url": "http://www.example.com/hp-spectre-x360",
+        "type": "Laptop",
+        "image": "https://i.postimg.cc/NGWJRbw3/HP-Spectre-X360.jpg",
+        "customerReviewCount": 1200,
+        "shipping": "Free shipping",
+        "salePrice_range": "1201 - 1300",
+        "objectID": "laptop3",
+        "categories": ["Laptops"]
+      },
+      {
+        "name": "Lenovo ThinkPad X1 Carbon",
+        "shortDescription": "Business laptop with robust security features.",
+        "bestSellingRank": 4,
+        "salePrice": 1849.99,
+        "manufacturer": "Lenovo",
+        "url": "http://www.example.com/lenovo-thinkpad-x1-carbon",
+        "type": "Laptop",
+        "image": "https://i.postimg.cc/wxt4tZn5/Lenovo-Think-Pad-X1-Carbon.jpg",
+        "customerReviewCount": 800,
+        "shipping": "Free shipping",
+        "salePrice_range": "1801 - 1900",
+        "objectID": "laptop4",
+        "categories": ["Laptops"]
+      },
+      {
+        "name": "Asus ZenBook 14",
+        "shortDescription": "Sleek and powerful ultrabook.",
+        "bestSellingRank": 5,
+        "salePrice": 849.99,
+        "manufacturer": "Asus",
+        "url": "http://www.example.com/asus-zenbook-14",
+        "type": "Laptop",
+        "image": "https://i.postimg.cc/NLqHL5Sn/Asus-Zen-Book-14.jpg",
+        "customerReviewCount": 900,
+        "shipping": "Free shipping",
+        "salePrice_range": "801 - 900",
+        "objectID": "laptop5",
+        "categories": ["Laptops"]
+      }
+    ],
+    "USB Flash Drives": [
+      {
+        "name": "SanDisk Ultra Flair 64GB",
+        "shortDescription": "Fast transfer speeds for files on the go.",
+        "bestSellingRank": 1,
+        "salePrice": 15.99,
+        "manufacturer": "SanDisk",
+        "url": "http://www.example.com/sandisk-ultra-flair-64gb",
+        "type": "USB Drive",
+        "image": "https://i.postimg.cc/tgXFhnJQ/San-Disk-Ultra-Flair-64-GB.jpg",
+        "customerReviewCount": 4000,
+        "shipping": "Free shipping",
+        "salePrice_range": "1 - 20",
+        "objectID": "usb1",
+        "categories": ["USB Flash Drives"]
+      },
+      {
+        "name": "Samsung BAR Plus 128GB",
+        "shortDescription": "Durable and stylish USB flash drive.",
+        "bestSellingRank": 2,
+        "salePrice": 25.99,
+        "manufacturer": "Samsung",
+        "url": "http://www.example.com/samsung-bar-plus-128gb",
+        "type": "USB Drive",
+        "image": "https://i.postimg.cc/nzW7bdkp/Samsung-BAR-Plus-128-GB.jpg",
+        "customerReviewCount": 3500,
+        "shipping": "Free shipping",
+        "salePrice_range": "21 - 30",
+        "objectID": "usb2",
+        "categories": ["USB Flash Drives"]
+      },
+      {
+        "name": "Kingston DataTraveler 32GB",
+        "shortDescription": "Reliable USB flash drive for everyday use.",
+        "bestSellingRank": 3,
+        "salePrice": 9.99,
+        "manufacturer": "Kingston",
+        "url": "http://www.example.com/kingston-datatraveler-32gb",
+        "type": "USB Drive",
+        "image": "https://i.postimg.cc/rpQxgyRd/Kingston-Data-Traveler-32-GB.jpg",
+        "customerReviewCount": 3000,
+        "shipping": "Free shipping",
+        "salePrice_range": "1 - 10",
+        "objectID": "usb3",
+        "categories": ["USB Flash Drives"]
+      },
+      {
+        "name": "PNY Turbo 256GB",
+        "shortDescription": "High-capacity USB flash drive for storage needs.",
+        "bestSellingRank": 4,
+        "salePrice": 39.99,
+        "manufacturer": "PNY",
+        "url": "http://www.example.com/pny-turbo-256gb",
+        "type": "USB Drive",
+        "image": "https://i.postimg.cc/0Qjm4g7V/PNY-Turbo-256-GB.jpg",
+        "customerReviewCount": 1500,
+        "shipping": "Free shipping",
+        "salePrice_range": "31 - 40",
+        "objectID": "usb4",
+        "categories": ["USB Flash Drives"]
+      },
+      {
+        "name": "Lexar JumpDrive 128GB",
+        "shortDescription": "Stylish design with high-speed performance.",
+        "bestSellingRank": 5,
+        "salePrice": 29.99,
+        "manufacturer": "Lexar",
+        "url": "http://www.example.com/lexar-jumpdrive-128gb",
+        "type": "USB Drive",
+        "image": "https://i.postimg.cc/nhKvjGHG/Lexar-Jump-Drive-128-GB.jpg",
+        "customerReviewCount": 2500,
+        "shipping": "Free shipping",
+        "salePrice_range": "21 - 30",
+        "objectID": "usb5",
+        "categories": ["USB Flash Drives"]
+      }
+    ],
+    "Mobiles": [
+      {
+        "name": "Apple iPhone 13",
+        "shortDescription": "The latest iPhone with powerful features.",
+        "bestSellingRank": 1,
+        "salePrice": 799.99,
+        "manufacturer": "Apple",
+        "url": "http://www.example.com/apple-iphone-13",
+        "type": "Mobile",
+        "image": "https://i.postimg.cc/7Zr3ZWyL/Apple-i-Phone-13.jpg",
+        "customerReviewCount": 5000,
+        "shipping": "Free shipping",
+        "salePrice_range": "701 - 800",
+        "objectID": "mobile1",
+        "categories": ["Mobiles"]
+      },
+      {
+        "name": "Samsung Galaxy S21",
+        "shortDescription": "Flagship Android phone with top-notch features.",
+        "bestSellingRank": 2,
+        "salePrice": 999.99,
+        "manufacturer": "Samsung",
+        "url": "http://www.example.com/samsung-galaxy-s21",
+        "type": "Mobile",
+        "image": "https://i.postimg.cc/tCxdyHwf/Samsung-Galaxy-S21.jpg",
+        "customerReviewCount": 4500,
+        "shipping": "Free shipping",
+        "salePrice_range": "901 - 1000",
+        "objectID": "mobile2",
+        "categories": ["Mobiles"]
+      },
+      {
+        "name": "Google Pixel 6",
+        "shortDescription": "The best of Google, now in a smartphone.",
+        "bestSellingRank": 3,
+        "salePrice": 599.99,
+        "manufacturer": "Google",
+        "url": "http://www.example.com/google-pixel-6",
+        "type": "Mobile",
+        "image": "https://i.postimg.cc/RC81j0sK/Google-Pixel-6.jpg",
+        "customerReviewCount": 3000,
+        "shipping": "Free shipping",
+        "salePrice_range": "501 - 600",
+        "objectID": "mobile3",
+        "categories": ["Mobiles"]
+      },
+      {
+        "name": "OnePlus 9",
+        "shortDescription": "Premium smartphone with fast charging.",
+        "bestSellingRank": 4,
+        "salePrice": 729.99,
+        "manufacturer": "OnePlus",
+        "url": "http://www.example.com/oneplus-9",
+        "type": "Mobile",
+        "image": "https://i.postimg.cc/pdjzMNTC/One-Plus-9.jpg",
+        "customerReviewCount": 2500,
+        "shipping": "Free shipping",
+        "salePrice_range": "701 - 800",
+        "objectID": "mobile4",
+        "categories": ["Mobiles"]
+      },
+      {
+        "name": "Xiaomi Mi 11",
+        "shortDescription": "Affordable phone with great specs.",
+        "bestSellingRank": 5,
+        "salePrice": 499.99,
+        "manufacturer": "Xiaomi",
+        "url": "http://www.example.com/xiaomi-mi-11",
+        "type": "Mobile",
+        "image": "https://i.postimg.cc/Y0J1gXGb/Xiaomi-Mi-11.jpg",
+        "customerReviewCount": 1500,
+        "shipping": "Free shipping",
+        "salePrice_range": "401 - 500",
+        "objectID": "mobile5",
+        "categories": ["Mobiles"]
+      }
+    ],
+    "Headphones": [
+      {
+        "name": "Sony WH-1000XM4",
+        "shortDescription": "Industry-leading noise canceling headphones.",
+        "bestSellingRank": 1,
+        "salePrice": 349.99,
+        "manufacturer": "Sony",
+        "url": "http://www.example.com/sony-wh-1000xm4",
+        "type": "Headphones",
+        "image": "https://i.postimg.cc/GtBF4024/Sony-WH-1000-XM4.jpg",
+        "customerReviewCount": 7000,
+        "shipping": "Free shipping",
+        "salePrice_range": "301 - 400",
+        "objectID": "headphone1",
+        "categories": ["Headphones"]
+      },
+      {
+        "name": "Bose QuietComfort 35 II",
+        "shortDescription": "Comfortable headphones with amazing sound quality.",
+        "bestSellingRank": 2,
+        "salePrice": 299.99,
+        "manufacturer": "Bose",
+        "url": "http://www.example.com/bose-qc35-ii",
+        "type": "Headphones",
+        "image": "https://i.postimg.cc/G2gP33c0/Bose-Quiet-Comfort-35-II.jpg",
+        "customerReviewCount": 5000,
+        "shipping": "Free shipping",
+        "salePrice_range": "201 - 300",
+        "objectID": "headphone2",
+        "categories": ["Headphones"]
+      },
+      {
+        "name": "Apple AirPods Pro",
+        "shortDescription": "Premium wireless earbuds with active noise cancellation.",
+        "bestSellingRank": 3,
+        "salePrice": 249.99,
+        "manufacturer": "Apple",
+        "url": "http://www.example.com/apple-airpods-pro",
+        "type": "Headphones",
+        "image": "https://i.postimg.cc/NMj7w2v7/Apple-Air-Pods-Pro.jpg",
+        "customerReviewCount": 6000,
+        "shipping": "Free shipping",
+        "salePrice_range": "201 - 300",
+        "objectID": "headphone3",
+        "categories": ["Headphones"]
+      },
+      {
+        "name": "Sennheiser HD 450BT",
+        "shortDescription": "Wireless headphones with long battery life.",
+        "bestSellingRank": 4,
+        "salePrice": 199.99,
+        "manufacturer": "Sennheiser",
+        "url": "http://www.example.com/sennheiser-hd450bt",
+        "type": "Headphones",
+        "image": "https://i.postimg.cc/ZqcFgF25/Sennheiser-HD-450-BT.png",
+        "customerReviewCount": 2500,
+        "shipping": "Free shipping",
+        "salePrice_range": "101 - 200",
+        "objectID": "headphone4",
+        "categories": ["Headphones"]
+      },
+      {
+        "name": "Jabra Elite 75t",
+        "shortDescription": "Compact true wireless earbuds with great sound.",
+        "bestSellingRank": 5,
+        "salePrice": 179.99,
+        "manufacturer": "Jabra",
+        "url": "http://www.example.com/jabra-elite-75t",
+        "type": "Headphones",
+        "image": "https://i.postimg.cc/PqhQ2F67/Jabra-Elite-75t.jpg",
+        "customerReviewCount": 2000,
+        "shipping": "Free shipping",
+        "salePrice_range": "101 - 200",
+        "objectID": "headphone5",
+        "categories": ["Headphones"]
+      }
+    ],
+    "Mice": [
+      {
+        "name": "Logitech MX Master 3",
+        "shortDescription": "Advanced wireless mouse with ergonomic design.",
+        "bestSellingRank": 1,
+        "salePrice": 99.99,
+        "manufacturer": "Logitech",
+        "url": "http://www.example.com/logitech-mx-master-3",
+        "type": "Mouse",
+        "image": "https://i.postimg.cc/sDkcZ25s/Logitech-MX-Master-3.jpg",
+        "customerReviewCount": 3000,
+        "shipping": "Free shipping",
+        "salePrice_range": "91 - 100",
+        "objectID": "mouse1",
+        "categories": ["Mice"]
+      },
+      {
+        "name": "Razer DeathAdder V2",
+        "shortDescription": "Ergonomic gaming mouse with customizable buttons.",
+        "bestSellingRank": 2,
+        "salePrice": 69.99,
+        "manufacturer": "Razer",
+        "url": "http://www.example.com/razer-deathadder-v2",
+        "type": "Mouse",
+        "image": "https://i.postimg.cc/9QyBPjBT/Razer-Death-Adder-V2.jpg",
+        "customerReviewCount": 4500,
+        "shipping": "Free shipping",
+        "salePrice_range": "61 - 70",
+        "objectID": "mouse2",
+        "categories": ["Mice"]
+      },
+      {
+        "name": "SteelSeries Rival 3",
+        "shortDescription": "Affordable gaming mouse with great performance.",
+        "bestSellingRank": 3,
+        "salePrice": 29.99,
+        "manufacturer": "SteelSeries",
+        "url": "http://www.example.com/steelseries-rival-3",
+        "type": "Mouse",
+        "image": "https://i.postimg.cc/9fyRNG8N/Steel-Series-Rival-3.jpg",
+        "customerReviewCount": 1500,
+        "shipping": "Free shipping",
+        "salePrice_range": "21 - 30",
+        "objectID": "mouse3",
+        "categories": ["Mice"]
+      },
+      {
+        "name": "Corsair Dark Core RGB",
+        "shortDescription": "Wireless gaming mouse with RGB lighting.",
+        "bestSellingRank": 4,
+        "salePrice": 89.99,
+        "manufacturer": "Corsair",
+        "url": "http://www.example.com/corsair-dark-core",
+        "type": "Mouse",
+        "image": "https://i.postimg.cc/7PQXw96C/Corsair-Dark-Core-RGB.jpg",
+        "customerReviewCount": 2000,
+        "shipping": "Free shipping",
+        "salePrice_range": "81 - 90",
+        "objectID": "mouse4",
+        "categories": ["Mice"]
+      },
+      {
+        "name": "Logitech G Pro",
+        "shortDescription": "Professional-grade gaming mouse.",
+        "bestSellingRank": 5,
+        "salePrice": 129.99,
+        "manufacturer": "Logitech",
+        "url": "http://www.example.com/logitech-g-pro",
+        "type": "Mouse",
+        "image": "https://i.postimg.cc/7hcN9Hc1/Logitech-G-Pro.jpg",
+        "customerReviewCount": 1000,
+        "shipping": "Free shipping",
+        "salePrice_range": "121 - 130",
+        "objectID": "mouse5",
+        "categories": ["Mice"]
+      }
+    ],
+    "Keyboards": [
+      {
+        "name": "Logitech K780 Multi-Device",
+        "shortDescription": "Wireless keyboard that can connect to multiple devices.",
+        "bestSellingRank": 1,
+        "salePrice": 79.99,
+        "manufacturer": "Logitech",
+        "url": "http://www.example.com/logitech-k780",
+        "type": "Keyboard",
+        "image": "https://i.postimg.cc/fykKYtHT/Logitech-K780-Multi-Device.jpg",
+        "customerReviewCount": 3000,
+        "shipping": "Free shipping",
+        "salePrice_range": "61 - 80",
+        "objectID": "keyboard1",
+        "categories": ["Keyboards"]
+      },
+      {
+        "name": "Corsair K95 RGB Platinum",
+        "shortDescription": "Gaming keyboard with customizable RGB lighting.",
+        "bestSellingRank": 2,
+        "salePrice": 199.99,
+        "manufacturer": "Corsair",
+        "url": "http://www.example.com/corsair-k95",
+        "type": "Keyboard",
+        "image": "https://i.postimg.cc/MT6tKrVB/Corsair-K95-RGB-Platinum.jpg",
+        "customerReviewCount": 2500,
+        "shipping": "Free shipping",
+        "salePrice_range": "191 - 200",
+        "objectID": "keyboard2",
+        "categories": ["Keyboards"]
+      },
+      {
+        "name": "Razer BlackWidow Lite",
+        "shortDescription": "Mechanical keyboard designed for quiet operation.",
+        "bestSellingRank": 3,
+        "salePrice": 99.99,
+        "manufacturer": "Razer",
+        "url": "http://www.example.com/razer-blackwidow-lite",
+        "type": "Keyboard",
+        "image": "https://i.postimg.cc/ZqFVmhBZ/Razer-Black-Widow-Lite.jpg",
+        "customerReviewCount": 1500,
+        "shipping": "Free shipping",
+        "salePrice_range": "91 - 100",
+        "objectID": "keyboard3",
+        "categories": ["Keyboards"]
+      },
+      {
+        "name": "Logitech G Pro Mechanical",
+        "shortDescription": "Compact gaming keyboard.",
+        "bestSellingRank": 4,
+        "salePrice": 129.99,
+        "manufacturer": "Logitech",
+        "url": "http://www.example.com/logitech-g-pro-keyboard",
+        "type": "Keyboard",
+        "image": "https://i.postimg.cc/DZx6WdPM/Logitech-G-Pro-Mechanical.jpg",
+        "customerReviewCount": 2000,
+        "shipping": "Free shipping",
+        "salePrice_range": "121 - 130",
+        "objectID": "keyboard4",
+        "categories": ["Keyboards"]
+      },
+      {
+        "name": "Microsoft Sculpt Ergonomic",
+        "shortDescription": "Comfortable keyboard with a split layout.",
+        "bestSellingRank": 5,
+        "salePrice": 129.99,
+        "manufacturer": "Microsoft",
+        "url": "http://www.example.com/microsoft-sculpt-ergonomic",
+        "type": "Keyboard",
+        "image": "https://i.postimg.cc/SKpDHKKD/Microsoft-Sculpt-Ergonomic.jpg",
+        "customerReviewCount": 1800,
+        "shipping": "Free shipping",
+        "salePrice_range": "121 - 130",
+        "objectID": "keyboard5",
+        "categories": ["Keyboards"]
+      }
+    ],
+    "Furniture": [
+      {
+        "name": "Ikea Bekant Desk",
+        "shortDescription": "Sit/stand desk with adjustable height.",
+        "bestSellingRank": 1,
+        "salePrice": 399.99,
+        "manufacturer": "Ikea",
+        "url": "http://www.example.com/ikea-bekant-desk",
+        "type": "Furniture",
+        "image": "https://i.postimg.cc/65gHLcxs/Ikea-Bekant-Desk.jpg",
+        "customerReviewCount": 3000,
+        "shipping": "Free shipping",
+        "salePrice_range": "301 - 400",
+        "objectID": "furniture1",
+        "categories": ["Furniture"]
+      },
+      {
+        "name": "Herman Miller Aeron Chair",
+        "shortDescription": "Ergonomic office chair for long hours.",
+        "bestSellingRank": 2,
+        "salePrice": 1249.99,
+        "manufacturer": "Herman Miller",
+        "url": "http://www.example.com/herman-miller-aeron-chair",
+        "type": "Furniture",
+        "image": "https://i.postimg.cc/BbfX5tBf/Herman-Miller-Aeron-Chair.jpg",
+        "customerReviewCount": 4000,
+        "shipping": "Free shipping",
+        "salePrice_range": "1201 - 1300",
+        "objectID": "furniture2",
+        "categories": ["Furniture"]
+      },
+      {
+        "name": "Flexispot Ergonomic Chair",
+        "shortDescription": "Adjustable chair for better posture.",
+        "bestSellingRank": 3,
+        "salePrice": 299.99,
+        "manufacturer": "Flexispot",
+        "url": "http://www.example.com/flexispot-ergonomic-chair",
+        "type": "Furniture",
+        "image": "https://i.postimg.cc/JzXpTXRs/Flexispot-Ergonomic-Chair.jpg",
+        "customerReviewCount": 2500,
+        "shipping": "Free shipping",
+        "salePrice_range": "201 - 300",
+        "objectID": "furniture3",
+        "categories": ["Furniture"]
+      },
+      {
+        "name": "Sauder Soft Modern Desk",
+        "shortDescription": "Stylish desk for home office.",
+        "bestSellingRank": 4,
+        "salePrice": 229.99,
+        "manufacturer": "Sauder",
+        "url": "http://www.example.com/sauder-soft-modern-desk",
+        "type": "Furniture",
+        "image": "https://i.postimg.cc/MZs3Xxsp/Sauder-Soft-Modern-Desk.jpg",
+        "customerReviewCount": 1500,
+        "shipping": "Free shipping",
+        "salePrice_range": "201 - 300",
+        "objectID": "furniture4",
+        "categories": ["Furniture"]
+      },
+      {
+        "name": "Homcom Adjustable Height Desk",
+        "shortDescription": "Desk with height adjustment feature.",
+        "bestSellingRank": 5,
+        "salePrice": 199.99,
+        "manufacturer": "Homcom",
+        "url": "http://www.example.com/homcom-adjustable-height-desk",
+        "type": "Furniture",
+        "image": "https://i.postimg.cc/HnP6N4Jy/Homcom-Adjustable-Height-Desk.jpg",
+        "customerReviewCount": 2000,
+        "shipping": "Free shipping",
+        "salePrice_range": "101 - 200",
+        "objectID": "furniture5",
+        "categories": ["Furniture"]
+      }
+    ],
+    "iPads": [
+      {
+        "name": "Apple iPad Pro (2021)",
+        "shortDescription": "Powerful tablet with M1 chip.",
+        "bestSellingRank": 1,
+        "salePrice": 1099.99,
+        "manufacturer": "Apple",
+        "url": "http://www.example.com/apple-ipad-pro-2021",
+        "type": "Tablet",
+        "image": "https://i.postimg.cc/J0hTKdh8/Apple-i-Pad-Pro-2021.jpg",
+        "customerReviewCount": 5000,
+        "shipping": "Free shipping",
+        "salePrice_range": "1001 - 1100",
+        "objectID": "ipad1",
+        "categories": ["iPads"]
+      },
+      {
+        "name": "Apple iPad Air (2020)",
+        "shortDescription": "Versatile tablet for work and play.",
+        "bestSellingRank": 2,
+        "salePrice": 599.99,
+        "manufacturer": "Apple",
+        "url": "http://www.example.com/apple-ipad-air-2020",
+        "type": "Tablet",
+        "image": "https://i.postimg.cc/nz2R4tpT/Apple-i-Pad-Air-2020.jpg",
+        "customerReviewCount": 4000,
+        "shipping": "Free shipping",
+        "salePrice_range": "501 - 600",
+        "objectID": "ipad2",
+        "categories": ["iPads"]
+      },
+      {
+        "name": "Samsung Galaxy Tab S7",
+        "shortDescription": "High-performance Android tablet.",
+        "bestSellingRank": 3,
+        "salePrice": 649.99,
+        "manufacturer": "Samsung",
+        "url": "http://www.example.com/samsung-galaxy-tab-s7",
+        "type": "Tablet",
+        "image": "https://i.postimg.cc/bJpVSvcs/Samsung-Galaxy-Tab-S7.jpg",
+        "customerReviewCount": 3500,
+        "shipping": "Free shipping",
+        "salePrice_range": "601 - 700",
+        "objectID": "ipad3",
+        "categories": ["iPads"]
+      },
+      {
+        "name": "Lenovo Tab P11",
+        "shortDescription": "Affordable tablet for everyday use.",
+        "bestSellingRank": 4,
+        "salePrice": 249.99,
+        "manufacturer": "Lenovo",
+        "url": "http://www.example.com/lenovo-tab-p11",
+        "type": "Tablet",
+        "image": "https://i.postimg.cc/Gp05rQXP/Lenovo-Tab-P11.jpg",
+        "customerReviewCount": 2000,
+        "shipping": "Free shipping",
+        "salePrice_range": "201 - 300",
+        "objectID": "ipad4",
+        "categories": ["iPads"]
+      },
+      {
+        "name": "Huawei MatePad Pro",
+        "shortDescription": "Premium tablet with great features.",
+        "bestSellingRank": 5,
+        "salePrice": 499.99,
+        "manufacturer": "Huawei",
+        "url": "http://www.example.com/huawei-matepad-pro",
+        "type": "Tablet",
+        "image": "https://i.postimg.cc/Nj2zWVkf/Huawei-Mate-Pad-Pro.jpg",
+        "customerReviewCount": 1500,
+        "shipping": "Free shipping",
+        "salePrice_range": "401 - 500",
+        "objectID": "ipad5",
+        "categories": ["iPads"]
+      }
+    ],
+    "LCDs": [
+      {
+        "name": "Samsung 55-Inch 4K UHD Smart TV",
+        "shortDescription": "Stunning picture quality and smart features.",
+        "bestSellingRank": 1,
+        "salePrice": 799.99,
+        "manufacturer": "Samsung",
+        "url": "http://www.example.com/samsung-55-inch-tv",
+        "type": "LCD",
+        "image": "https://i.postimg.cc/0NpHNw4T/Samsung-55-Inch-4-K-UHD-Smart-TV.jpg",
+        "customerReviewCount": 8000,
+        "shipping": "Free shipping",
+        "salePrice_range": "701 - 800",
+        "objectID": "lcd1",
+        "categories": ["LCDs"]
+      },
+      {
+        "name": "LG 65-Inch OLED Smart TV",
+        "shortDescription": "Exceptional color and contrast.",
+        "bestSellingRank": 2,
+        "salePrice": 2499.99,
+        "manufacturer": "LG",
+        "url": "http://www.example.com/lg-65-inch-tv",
+        "type": "LCD",
+        "image": "https://i.postimg.cc/0yMJ7gpv/LG-65-Inch-OLED-Smart-TV.jpg",
+        "customerReviewCount": 5000,
+        "shipping": "Free shipping",
+        "salePrice_range": "2401 - 2500",
+        "objectID": "lcd2",
+        "categories": ["LCDs"]
+      },
+      {
+        "name": "Sony 50-Inch 4K UHD Smart TV",
+        "shortDescription": "Great for gaming and movies.",
+        "bestSellingRank": 3,
+        "salePrice": 899.99,
+        "manufacturer": "Sony",
+        "url": "http://www.example.com/sony-50-inch-tv",
+        "type": "LCD",
+        "image": "https://i.postimg.cc/wTvPk3tN/Sony-50-Inch-4-K-UHD-Smart-TV.jpg",
+        "customerReviewCount": 3000,
+        "shipping": "Free shipping",
+        "salePrice_range": "801 - 900",
+        "objectID": "lcd3",
+        "categories": ["LCDs"]
+      },
+      {
+        "name": "TCL 65-Inch 4K UHD Smart TV",
+        "shortDescription": "Affordable large-screen TV.",
+        "bestSellingRank": 4,
+        "salePrice": 599.99,
+        "manufacturer": "TCL",
+        "url": "http://www.example.com/tcl-65-inch-tv",
+        "type": "LCD",
+        "image": "https://i.postimg.cc/GtMfCnf9/TCL-65-Inch-4-K-UHD-Smart-TV.jpg",
+        "customerReviewCount": 4000,
+        "shipping": "Free shipping",
+        "salePrice_range": "501 - 600",
+        "objectID": "lcd4",
+        "categories": ["LCDs"]
+      },
+      {
+        "name": "Vizio 75-Inch 4K Smart TV",
+        "shortDescription": "Large TV with great performance.",
+        "bestSellingRank": 5,
+        "salePrice": 1599.99,
+        "manufacturer": "Vizio",
+        "url": "http://www.example.com/vizio-75-inch-tv",
+        "type": "LCD",
+        "image": "https://i.postimg.cc/c1T2YfJZ/Vizio-75-Inch-4-K-Smart-TV.jpg",
+        "customerReviewCount": 2500,
+        "shipping": "Free shipping",
+        "salePrice_range": "1501 - 1600",
+        "objectID": "lcd5",
+        "categories": ["LCDs"]
+      }
+    ]
+  }
 }
