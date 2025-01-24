@@ -1,697 +1,1011 @@
-{
-  "categories": {
-    "Laptops": [
+[{
+    "id": 3,
+    "name": "Desserts",
+    "filters": {
+      "preparation_time": ["<15 minutes", "15-30 minutes", "30+ minutes"],
+      "difficulty": ["Easy", "Medium", "Hard"],
+      "dietary": ["Vegetarian", "Vegan", "Gluten-Free"],
+      "allergens": ["Dairy-Free", "Nut-Free", "Egg-Free"]
+    },
+    "recipes": [
       {
-        "name": "Dell XPS 13",
-        "shortDescription": "Ultra-portable laptop with stunning 4K display.",
-        "bestSellingRank": 1,
-        "salePrice": 999.99,
-        "manufacturer": "Dell",
-        "url": "http://www.example.com/dell-xps-13",
-        "type": "Laptop",
-        "image": "https://i.postimg.cc/02Dtnmkb/dell-xps-13.jpg",
-        "customerReviewCount": 1500,
-        "shipping": "Free shipping",
-        "salePrice_range": "901 - 1000",
-        "objectID": "laptop1",
-        "categories": ["Laptops"]
+        "id": 301,
+        "name": "Chocolate Lava Cake",
+        "image": "https://i.postimg.cc/B69vLthZ/chocolate-lava-cake.jpg",
+        "description": "A decadent molten chocolate dessert with a gooey center.",
+        "ingredients": [
+          {"name": "Dark chocolate", "quantity": "200g", "description": "Chopped"},
+          {"name": "Butter", "quantity": "100g", "description": "Unsalted"},
+          {"name": "Eggs", "quantity": "2", "description": "Large"},
+          {"name": "Sugar", "quantity": "1/2 cup", "description": "Granulated"},
+          {"name": "Flour", "quantity": "1/4 cup", "description": "All-purpose"}
+        ],
+        "instructions": [
+          "Preheat oven to 200°C (400°F) and grease ramekins.",
+          "Melt chocolate and butter together in a bowl over boiling water.",
+          "Whisk eggs and sugar in another bowl until fluffy.",
+          "Fold the melted chocolate mixture into the eggs.",
+          "Gently stir in the flour until combined.",
+          "Pour batter into ramekins and bake for 12 minutes.",
+          "Serve immediately for a molten center."
+        ],
+        "preparation_time": "15 minutes",
+        "cooking_time": "12 minutes",
+        "total_time": "27 minutes",
+        "difficulty": "Medium",
+        "serving_size": "4",
+        "nutritional_info": {
+          "calories": "320 kcal per serving",
+          "fat": "18g",
+          "carbohydrates": "35g",
+          "protein": "5g",
+          "fiber": "2g"
+        },
+        "allergens": ["Dairy", "Eggs", "Gluten"],
+        "tags": ["Vegetarian"]
       },
       {
-        "name": "Apple MacBook Pro 16",
-        "shortDescription": "High-performance laptop for professionals.",
-        "bestSellingRank": 2,
-        "salePrice": 2399.99,
-        "manufacturer": "Apple",
-        "url": "http://www.example.com/macbook-pro-16",
-        "type": "Laptop",
-        "image": "https://i.postimg.cc/wjzwGvMF/mac-book-pro-16.jpg",
-        "customerReviewCount": 2000,
-        "shipping": "Free shipping",
-        "salePrice_range": "2001 - 2500",
-        "objectID": "laptop2",
-        "categories": ["Laptops"]
+        "id": 302,
+        "name": "Classic Tiramisu",
+        "image": "https://i.postimg.cc/QtQdpsPQ/classic-tiramisu.jpg",
+        "description": "A traditional Italian dessert with layers of coffee-soaked ladyfingers and mascarpone.",
+        "ingredients": [
+          {"name": "Ladyfingers", "quantity": "20", "description": "Store-bought or homemade"},
+          {"name": "Mascarpone cheese", "quantity": "250g", "description": "Room temperature"},
+          {"name": "Espresso coffee", "quantity": "1 cup", "description": "Freshly brewed and cooled"},
+          {"name": "Cocoa powder", "quantity": "2 tablespoons", "description": "For dusting"},
+          {"name": "Egg yolks", "quantity": "3", "description": "Fresh"}
+        ],
+        "instructions": [
+          "Beat egg yolks and sugar until pale and fluffy.",
+          "Fold in mascarpone cheese gently to form a creamy mixture.",
+          "Dip ladyfingers in coffee briefly and layer them in a dish.",
+          "Spread a layer of mascarpone mixture over the ladyfingers.",
+          "Repeat layers until all ingredients are used.",
+          "Dust with cocoa powder and chill for at least 4 hours before serving."
+        ],
+        "preparation_time": "20 minutes",
+        "cooking_time": "0 minutes (Chilling: 4 hours)",
+        "total_time": "4 hours 20 minutes",
+        "difficulty": "Medium",
+        "serving_size": "6",
+        "nutritional_info": {
+          "calories": "250 kcal per serving",
+          "fat": "15g",
+          "carbohydrates": "20g",
+          "protein": "4g",
+          "fiber": "1g"
+        },
+        "allergens": ["Dairy", "Eggs", "Gluten"],
+        "tags": ["Vegetarian"]
       },
       {
-        "name": "HP Spectre x360",
-        "shortDescription": "Convertible laptop with stunning design.",
-        "bestSellingRank": 3,
-        "salePrice": 1299.99,
-        "manufacturer": "HP",
-        "url": "http://www.example.com/hp-spectre-x360",
-        "type": "Laptop",
-        "image": "https://i.postimg.cc/NGWJRbw3/HP-Spectre-X360.jpg",
-        "customerReviewCount": 1200,
-        "shipping": "Free shipping",
-        "salePrice_range": "1201 - 1300",
-        "objectID": "laptop3",
-        "categories": ["Laptops"]
+        "id": 303,
+        "name": "Vegan Brownies",
+        "image": "https://i.postimg.cc/YSm9CQzy/vegan-brownies.jpg",
+        "description": "Rich and fudgy brownies made without eggs or dairy.",
+        "ingredients": [
+          {"name": "All-purpose flour", "quantity": "1 cup", "description": "Sifted"},
+          {"name": "Cocoa powder", "quantity": "1/3 cup", "description": "Unsweetened"},
+          {"name": "Sugar", "quantity": "3/4 cup", "description": "Granulated"},
+          {"name": "Almond milk", "quantity": "1/2 cup", "description": "Unsweetened"},
+          {"name": "Vegetable oil", "quantity": "1/4 cup", "description": "Neutral flavor"}
+        ],
+        "instructions": [
+          "Preheat oven to 180°C (350°F) and grease a baking dish.",
+          "Mix flour, cocoa powder, sugar, and baking powder in a bowl.",
+          "Add almond milk and vegetable oil; mix until smooth.",
+          "Pour batter into the baking dish and smooth the top.",
+          "Bake for 25 minutes or until a toothpick comes out with crumbs.",
+          "Cool completely before cutting into squares."
+        ],
+        "preparation_time": "10 minutes",
+        "cooking_time": "25 minutes",
+        "total_time": "35 minutes",
+        "difficulty": "Easy",
+        "serving_size": "9",
+        "nutritional_info": {
+          "calories": "180 kcal per serving",
+          "fat": "8g",
+          "carbohydrates": "28g",
+          "protein": "2g",
+          "fiber": "2g"
+        },
+        "allergens": ["Gluten"],
+        "tags": ["Vegan", "Nut-Free"]
       },
       {
-        "name": "Lenovo ThinkPad X1 Carbon",
-        "shortDescription": "Business laptop with robust security features.",
-        "bestSellingRank": 4,
-        "salePrice": 1849.99,
-        "manufacturer": "Lenovo",
-        "url": "http://www.example.com/lenovo-thinkpad-x1-carbon",
-        "type": "Laptop",
-        "image": "https://i.postimg.cc/wxt4tZn5/Lenovo-Think-Pad-X1-Carbon.jpg",
-        "customerReviewCount": 800,
-        "shipping": "Free shipping",
-        "salePrice_range": "1801 - 1900",
-        "objectID": "laptop4",
-        "categories": ["Laptops"]
+        "id": 304,
+        "name": "Panna Cotta",
+        "image": "https://i.postimg.cc/sgLxzT7h/panna-cotta.jpg",
+        "description": "Creamy Italian dessert served with a fruit topping.",
+        "ingredients": [
+          {"name": "Heavy cream", "quantity": "2 cups", "description": "Full-fat"},
+          {"name": "Sugar", "quantity": "1/2 cup", "description": "Granulated"},
+          {"name": "Gelatin", "quantity": "2 teaspoons", "description": "Unflavored"},
+          {"name": "Vanilla extract", "quantity": "1 teaspoon", "description": "Pure"},
+          {"name": "Fruit compote", "quantity": "1/2 cup", "description": "Optional topping"}
+        ],
+        "instructions": [
+          "Sprinkle gelatin over 1/4 cup of cold water and let it bloom.",
+          "Heat cream and sugar in a pan until sugar dissolves.",
+          "Add bloomed gelatin and vanilla extract; stir until dissolved.",
+          "Pour into ramekins and chill for 4 hours until set.",
+          "Serve with fruit compote or as desired."
+        ],
+        "preparation_time": "10 minutes",
+        "cooking_time": "5 minutes (Chilling: 4 hours)",
+        "total_time": "4 hours 15 minutes",
+        "difficulty": "Easy",
+        "serving_size": "4",
+        "nutritional_info": {
+          "calories": "250 kcal per serving",
+          "fat": "20g",
+          "carbohydrates": "15g",
+          "protein": "3g",
+          "fiber": "0g"
+        },
+        "allergens": ["Dairy"],
+        "tags": ["Vegetarian", "Gluten-Free", "Nut-Free"]
       },
       {
-        "name": "Asus ZenBook 14",
-        "shortDescription": "Sleek and powerful ultrabook.",
-        "bestSellingRank": 5,
-        "salePrice": 849.99,
-        "manufacturer": "Asus",
-        "url": "http://www.example.com/asus-zenbook-14",
-        "type": "Laptop",
-        "image": "https://i.postimg.cc/NLqHL5Sn/Asus-Zen-Book-14.jpg",
-        "customerReviewCount": 900,
-        "shipping": "Free shipping",
-        "salePrice_range": "801 - 900",
-        "objectID": "laptop5",
-        "categories": ["Laptops"]
-      }
-    ],
-    "USB Flash Drives": [
-      {
-        "name": "SanDisk Ultra Flair 64GB",
-        "shortDescription": "Fast transfer speeds for files on the go.",
-        "bestSellingRank": 1,
-        "salePrice": 15.99,
-        "manufacturer": "SanDisk",
-        "url": "http://www.example.com/sandisk-ultra-flair-64gb",
-        "type": "USB Drive",
-        "image": "https://i.postimg.cc/tgXFhnJQ/San-Disk-Ultra-Flair-64-GB.jpg",
-        "customerReviewCount": 4000,
-        "shipping": "Free shipping",
-        "salePrice_range": "1 - 20",
-        "objectID": "usb1",
-        "categories": ["USB Flash Drives"]
-      },
-      {
-        "name": "Samsung BAR Plus 128GB",
-        "shortDescription": "Durable and stylish USB flash drive.",
-        "bestSellingRank": 2,
-        "salePrice": 25.99,
-        "manufacturer": "Samsung",
-        "url": "http://www.example.com/samsung-bar-plus-128gb",
-        "type": "USB Drive",
-        "image": "https://i.postimg.cc/nzW7bdkp/Samsung-BAR-Plus-128-GB.jpg",
-        "customerReviewCount": 3500,
-        "shipping": "Free shipping",
-        "salePrice_range": "21 - 30",
-        "objectID": "usb2",
-        "categories": ["USB Flash Drives"]
-      },
-      {
-        "name": "Kingston DataTraveler 32GB",
-        "shortDescription": "Reliable USB flash drive for everyday use.",
-        "bestSellingRank": 3,
-        "salePrice": 9.99,
-        "manufacturer": "Kingston",
-        "url": "http://www.example.com/kingston-datatraveler-32gb",
-        "type": "USB Drive",
-        "image": "https://i.postimg.cc/rpQxgyRd/Kingston-Data-Traveler-32-GB.jpg",
-        "customerReviewCount": 3000,
-        "shipping": "Free shipping",
-        "salePrice_range": "1 - 10",
-        "objectID": "usb3",
-        "categories": ["USB Flash Drives"]
-      },
-      {
-        "name": "PNY Turbo 256GB",
-        "shortDescription": "High-capacity USB flash drive for storage needs.",
-        "bestSellingRank": 4,
-        "salePrice": 39.99,
-        "manufacturer": "PNY",
-        "url": "http://www.example.com/pny-turbo-256gb",
-        "type": "USB Drive",
-        "image": "https://i.postimg.cc/0Qjm4g7V/PNY-Turbo-256-GB.jpg",
-        "customerReviewCount": 1500,
-        "shipping": "Free shipping",
-        "salePrice_range": "31 - 40",
-        "objectID": "usb4",
-        "categories": ["USB Flash Drives"]
-      },
-      {
-        "name": "Lexar JumpDrive 128GB",
-        "shortDescription": "Stylish design with high-speed performance.",
-        "bestSellingRank": 5,
-        "salePrice": 29.99,
-        "manufacturer": "Lexar",
-        "url": "http://www.example.com/lexar-jumpdrive-128gb",
-        "type": "USB Drive",
-        "image": "https://i.postimg.cc/nhKvjGHG/Lexar-Jump-Drive-128-GB.jpg",
-        "customerReviewCount": 2500,
-        "shipping": "Free shipping",
-        "salePrice_range": "21 - 30",
-        "objectID": "usb5",
-        "categories": ["USB Flash Drives"]
-      }
-    ],
-    "Mobiles": [
-      {
-        "name": "Apple iPhone 13",
-        "shortDescription": "The latest iPhone with powerful features.",
-        "bestSellingRank": 1,
-        "salePrice": 799.99,
-        "manufacturer": "Apple",
-        "url": "http://www.example.com/apple-iphone-13",
-        "type": "Mobile",
-        "image": "https://i.postimg.cc/7Zr3ZWyL/Apple-i-Phone-13.jpg",
-        "customerReviewCount": 5000,
-        "shipping": "Free shipping",
-        "salePrice_range": "701 - 800",
-        "objectID": "mobile1",
-        "categories": ["Mobiles"]
-      },
-      {
-        "name": "Samsung Galaxy S21",
-        "shortDescription": "Flagship Android phone with top-notch features.",
-        "bestSellingRank": 2,
-        "salePrice": 999.99,
-        "manufacturer": "Samsung",
-        "url": "http://www.example.com/samsung-galaxy-s21",
-        "type": "Mobile",
-        "image": "https://i.postimg.cc/tCxdyHwf/Samsung-Galaxy-S21.jpg",
-        "customerReviewCount": 4500,
-        "shipping": "Free shipping",
-        "salePrice_range": "901 - 1000",
-        "objectID": "mobile2",
-        "categories": ["Mobiles"]
-      },
-      {
-        "name": "Google Pixel 6",
-        "shortDescription": "The best of Google, now in a smartphone.",
-        "bestSellingRank": 3,
-        "salePrice": 599.99,
-        "manufacturer": "Google",
-        "url": "http://www.example.com/google-pixel-6",
-        "type": "Mobile",
-        "image": "https://i.postimg.cc/RC81j0sK/Google-Pixel-6.jpg",
-        "customerReviewCount": 3000,
-        "shipping": "Free shipping",
-        "salePrice_range": "501 - 600",
-        "objectID": "mobile3",
-        "categories": ["Mobiles"]
-      },
-      {
-        "name": "OnePlus 9",
-        "shortDescription": "Premium smartphone with fast charging.",
-        "bestSellingRank": 4,
-        "salePrice": 729.99,
-        "manufacturer": "OnePlus",
-        "url": "http://www.example.com/oneplus-9",
-        "type": "Mobile",
-        "image": "https://i.postimg.cc/pdjzMNTC/One-Plus-9.jpg",
-        "customerReviewCount": 2500,
-        "shipping": "Free shipping",
-        "salePrice_range": "701 - 800",
-        "objectID": "mobile4",
-        "categories": ["Mobiles"]
-      },
-      {
-        "name": "Xiaomi Mi 11",
-        "shortDescription": "Affordable phone with great specs.",
-        "bestSellingRank": 5,
-        "salePrice": 499.99,
-        "manufacturer": "Xiaomi",
-        "url": "http://www.example.com/xiaomi-mi-11",
-        "type": "Mobile",
-        "image": "https://i.postimg.cc/Y0J1gXGb/Xiaomi-Mi-11.jpg",
-        "customerReviewCount": 1500,
-        "shipping": "Free shipping",
-        "salePrice_range": "401 - 500",
-        "objectID": "mobile5",
-        "categories": ["Mobiles"]
-      }
-    ],
-    "Headphones": [
-      {
-        "name": "Sony WH-1000XM4",
-        "shortDescription": "Industry-leading noise canceling headphones.",
-        "bestSellingRank": 1,
-        "salePrice": 349.99,
-        "manufacturer": "Sony",
-        "url": "http://www.example.com/sony-wh-1000xm4",
-        "type": "Headphones",
-        "image": "https://i.postimg.cc/GtBF4024/Sony-WH-1000-XM4.jpg",
-        "customerReviewCount": 7000,
-        "shipping": "Free shipping",
-        "salePrice_range": "301 - 400",
-        "objectID": "headphone1",
-        "categories": ["Headphones"]
-      },
-      {
-        "name": "Bose QuietComfort 35 II",
-        "shortDescription": "Comfortable headphones with amazing sound quality.",
-        "bestSellingRank": 2,
-        "salePrice": 299.99,
-        "manufacturer": "Bose",
-        "url": "http://www.example.com/bose-qc35-ii",
-        "type": "Headphones",
-        "image": "https://i.postimg.cc/G2gP33c0/Bose-Quiet-Comfort-35-II.jpg",
-        "customerReviewCount": 5000,
-        "shipping": "Free shipping",
-        "salePrice_range": "201 - 300",
-        "objectID": "headphone2",
-        "categories": ["Headphones"]
-      },
-      {
-        "name": "Apple AirPods Pro",
-        "shortDescription": "Premium wireless earbuds with active noise cancellation.",
-        "bestSellingRank": 3,
-        "salePrice": 249.99,
-        "manufacturer": "Apple",
-        "url": "http://www.example.com/apple-airpods-pro",
-        "type": "Headphones",
-        "image": "https://i.postimg.cc/NMj7w2v7/Apple-Air-Pods-Pro.jpg",
-        "customerReviewCount": 6000,
-        "shipping": "Free shipping",
-        "salePrice_range": "201 - 300",
-        "objectID": "headphone3",
-        "categories": ["Headphones"]
-      },
-      {
-        "name": "Sennheiser HD 450BT",
-        "shortDescription": "Wireless headphones with long battery life.",
-        "bestSellingRank": 4,
-        "salePrice": 199.99,
-        "manufacturer": "Sennheiser",
-        "url": "http://www.example.com/sennheiser-hd450bt",
-        "type": "Headphones",
-        "image": "https://i.postimg.cc/ZqcFgF25/Sennheiser-HD-450-BT.png",
-        "customerReviewCount": 2500,
-        "shipping": "Free shipping",
-        "salePrice_range": "101 - 200",
-        "objectID": "headphone4",
-        "categories": ["Headphones"]
-      },
-      {
-        "name": "Jabra Elite 75t",
-        "shortDescription": "Compact true wireless earbuds with great sound.",
-        "bestSellingRank": 5,
-        "salePrice": 179.99,
-        "manufacturer": "Jabra",
-        "url": "http://www.example.com/jabra-elite-75t",
-        "type": "Headphones",
-        "image": "https://i.postimg.cc/PqhQ2F67/Jabra-Elite-75t.jpg",
-        "customerReviewCount": 2000,
-        "shipping": "Free shipping",
-        "salePrice_range": "101 - 200",
-        "objectID": "headphone5",
-        "categories": ["Headphones"]
-      }
-    ],
-    "Mice": [
-      {
-        "name": "Logitech MX Master 3",
-        "shortDescription": "Advanced wireless mouse with ergonomic design.",
-        "bestSellingRank": 1,
-        "salePrice": 99.99,
-        "manufacturer": "Logitech",
-        "url": "http://www.example.com/logitech-mx-master-3",
-        "type": "Mouse",
-        "image": "https://i.postimg.cc/sDkcZ25s/Logitech-MX-Master-3.jpg",
-        "customerReviewCount": 3000,
-        "shipping": "Free shipping",
-        "salePrice_range": "91 - 100",
-        "objectID": "mouse1",
-        "categories": ["Mice"]
-      },
-      {
-        "name": "Razer DeathAdder V2",
-        "shortDescription": "Ergonomic gaming mouse with customizable buttons.",
-        "bestSellingRank": 2,
-        "salePrice": 69.99,
-        "manufacturer": "Razer",
-        "url": "http://www.example.com/razer-deathadder-v2",
-        "type": "Mouse",
-        "image": "https://i.postimg.cc/9QyBPjBT/Razer-Death-Adder-V2.jpg",
-        "customerReviewCount": 4500,
-        "shipping": "Free shipping",
-        "salePrice_range": "61 - 70",
-        "objectID": "mouse2",
-        "categories": ["Mice"]
-      },
-      {
-        "name": "SteelSeries Rival 3",
-        "shortDescription": "Affordable gaming mouse with great performance.",
-        "bestSellingRank": 3,
-        "salePrice": 29.99,
-        "manufacturer": "SteelSeries",
-        "url": "http://www.example.com/steelseries-rival-3",
-        "type": "Mouse",
-        "image": "https://i.postimg.cc/9fyRNG8N/Steel-Series-Rival-3.jpg",
-        "customerReviewCount": 1500,
-        "shipping": "Free shipping",
-        "salePrice_range": "21 - 30",
-        "objectID": "mouse3",
-        "categories": ["Mice"]
-      },
-      {
-        "name": "Corsair Dark Core RGB",
-        "shortDescription": "Wireless gaming mouse with RGB lighting.",
-        "bestSellingRank": 4,
-        "salePrice": 89.99,
-        "manufacturer": "Corsair",
-        "url": "http://www.example.com/corsair-dark-core",
-        "type": "Mouse",
-        "image": "https://i.postimg.cc/7PQXw96C/Corsair-Dark-Core-RGB.jpg",
-        "customerReviewCount": 2000,
-        "shipping": "Free shipping",
-        "salePrice_range": "81 - 90",
-        "objectID": "mouse4",
-        "categories": ["Mice"]
-      },
-      {
-        "name": "Logitech G Pro",
-        "shortDescription": "Professional-grade gaming mouse.",
-        "bestSellingRank": 5,
-        "salePrice": 129.99,
-        "manufacturer": "Logitech",
-        "url": "http://www.example.com/logitech-g-pro",
-        "type": "Mouse",
-        "image": "https://i.postimg.cc/7hcN9Hc1/Logitech-G-Pro.jpg",
-        "customerReviewCount": 1000,
-        "shipping": "Free shipping",
-        "salePrice_range": "121 - 130",
-        "objectID": "mouse5",
-        "categories": ["Mice"]
-      }
-    ],
-    "Keyboards": [
-      {
-        "name": "Logitech K780 Multi-Device",
-        "shortDescription": "Wireless keyboard that can connect to multiple devices.",
-        "bestSellingRank": 1,
-        "salePrice": 79.99,
-        "manufacturer": "Logitech",
-        "url": "http://www.example.com/logitech-k780",
-        "type": "Keyboard",
-        "image": "https://i.postimg.cc/fykKYtHT/Logitech-K780-Multi-Device.jpg",
-        "customerReviewCount": 3000,
-        "shipping": "Free shipping",
-        "salePrice_range": "61 - 80",
-        "objectID": "keyboard1",
-        "categories": ["Keyboards"]
-      },
-      {
-        "name": "Corsair K95 RGB Platinum",
-        "shortDescription": "Gaming keyboard with customizable RGB lighting.",
-        "bestSellingRank": 2,
-        "salePrice": 199.99,
-        "manufacturer": "Corsair",
-        "url": "http://www.example.com/corsair-k95",
-        "type": "Keyboard",
-        "image": "https://i.postimg.cc/MT6tKrVB/Corsair-K95-RGB-Platinum.jpg",
-        "customerReviewCount": 2500,
-        "shipping": "Free shipping",
-        "salePrice_range": "191 - 200",
-        "objectID": "keyboard2",
-        "categories": ["Keyboards"]
-      },
-      {
-        "name": "Razer BlackWidow Lite",
-        "shortDescription": "Mechanical keyboard designed for quiet operation.",
-        "bestSellingRank": 3,
-        "salePrice": 99.99,
-        "manufacturer": "Razer",
-        "url": "http://www.example.com/razer-blackwidow-lite",
-        "type": "Keyboard",
-        "image": "https://i.postimg.cc/ZqFVmhBZ/Razer-Black-Widow-Lite.jpg",
-        "customerReviewCount": 1500,
-        "shipping": "Free shipping",
-        "salePrice_range": "91 - 100",
-        "objectID": "keyboard3",
-        "categories": ["Keyboards"]
-      },
-      {
-        "name": "Logitech G Pro Mechanical",
-        "shortDescription": "Compact gaming keyboard.",
-        "bestSellingRank": 4,
-        "salePrice": 129.99,
-        "manufacturer": "Logitech",
-        "url": "http://www.example.com/logitech-g-pro-keyboard",
-        "type": "Keyboard",
-        "image": "https://i.postimg.cc/DZx6WdPM/Logitech-G-Pro-Mechanical.jpg",
-        "customerReviewCount": 2000,
-        "shipping": "Free shipping",
-        "salePrice_range": "121 - 130",
-        "objectID": "keyboard4",
-        "categories": ["Keyboards"]
-      },
-      {
-        "name": "Microsoft Sculpt Ergonomic",
-        "shortDescription": "Comfortable keyboard with a split layout.",
-        "bestSellingRank": 5,
-        "salePrice": 129.99,
-        "manufacturer": "Microsoft",
-        "url": "http://www.example.com/microsoft-sculpt-ergonomic",
-        "type": "Keyboard",
-        "image": "https://i.postimg.cc/SKpDHKKD/Microsoft-Sculpt-Ergonomic.jpg",
-        "customerReviewCount": 1800,
-        "shipping": "Free shipping",
-        "salePrice_range": "121 - 130",
-        "objectID": "keyboard5",
-        "categories": ["Keyboards"]
-      }
-    ],
-    "Furniture": [
-      {
-        "name": "Ikea Bekant Desk",
-        "shortDescription": "Sit/stand desk with adjustable height.",
-        "bestSellingRank": 1,
-        "salePrice": 399.99,
-        "manufacturer": "Ikea",
-        "url": "http://www.example.com/ikea-bekant-desk",
-        "type": "Furniture",
-        "image": "https://i.postimg.cc/65gHLcxs/Ikea-Bekant-Desk.jpg",
-        "customerReviewCount": 3000,
-        "shipping": "Free shipping",
-        "salePrice_range": "301 - 400",
-        "objectID": "furniture1",
-        "categories": ["Furniture"]
-      },
-      {
-        "name": "Herman Miller Aeron Chair",
-        "shortDescription": "Ergonomic office chair for long hours.",
-        "bestSellingRank": 2,
-        "salePrice": 1249.99,
-        "manufacturer": "Herman Miller",
-        "url": "http://www.example.com/herman-miller-aeron-chair",
-        "type": "Furniture",
-        "image": "https://i.postimg.cc/BbfX5tBf/Herman-Miller-Aeron-Chair.jpg",
-        "customerReviewCount": 4000,
-        "shipping": "Free shipping",
-        "salePrice_range": "1201 - 1300",
-        "objectID": "furniture2",
-        "categories": ["Furniture"]
-      },
-      {
-        "name": "Flexispot Ergonomic Chair",
-        "shortDescription": "Adjustable chair for better posture.",
-        "bestSellingRank": 3,
-        "salePrice": 299.99,
-        "manufacturer": "Flexispot",
-        "url": "http://www.example.com/flexispot-ergonomic-chair",
-        "type": "Furniture",
-        "image": "https://i.postimg.cc/JzXpTXRs/Flexispot-Ergonomic-Chair.jpg",
-        "customerReviewCount": 2500,
-        "shipping": "Free shipping",
-        "salePrice_range": "201 - 300",
-        "objectID": "furniture3",
-        "categories": ["Furniture"]
-      },
-      {
-        "name": "Sauder Soft Modern Desk",
-        "shortDescription": "Stylish desk for home office.",
-        "bestSellingRank": 4,
-        "salePrice": 229.99,
-        "manufacturer": "Sauder",
-        "url": "http://www.example.com/sauder-soft-modern-desk",
-        "type": "Furniture",
-        "image": "https://i.postimg.cc/MZs3Xxsp/Sauder-Soft-Modern-Desk.jpg",
-        "customerReviewCount": 1500,
-        "shipping": "Free shipping",
-        "salePrice_range": "201 - 300",
-        "objectID": "furniture4",
-        "categories": ["Furniture"]
-      },
-      {
-        "name": "Homcom Adjustable Height Desk",
-        "shortDescription": "Desk with height adjustment feature.",
-        "bestSellingRank": 5,
-        "salePrice": 199.99,
-        "manufacturer": "Homcom",
-        "url": "http://www.example.com/homcom-adjustable-height-desk",
-        "type": "Furniture",
-        "image": "https://i.postimg.cc/HnP6N4Jy/Homcom-Adjustable-Height-Desk.jpg",
-        "customerReviewCount": 2000,
-        "shipping": "Free shipping",
-        "salePrice_range": "101 - 200",
-        "objectID": "furniture5",
-        "categories": ["Furniture"]
-      }
-    ],
-    "iPads": [
-      {
-        "name": "Apple iPad Pro (2021)",
-        "shortDescription": "Powerful tablet with M1 chip.",
-        "bestSellingRank": 1,
-        "salePrice": 1099.99,
-        "manufacturer": "Apple",
-        "url": "http://www.example.com/apple-ipad-pro-2021",
-        "type": "Tablet",
-        "image": "https://i.postimg.cc/J0hTKdh8/Apple-i-Pad-Pro-2021.jpg",
-        "customerReviewCount": 5000,
-        "shipping": "Free shipping",
-        "salePrice_range": "1001 - 1100",
-        "objectID": "ipad1",
-        "categories": ["iPads"]
-      },
-      {
-        "name": "Apple iPad Air (2020)",
-        "shortDescription": "Versatile tablet for work and play.",
-        "bestSellingRank": 2,
-        "salePrice": 599.99,
-        "manufacturer": "Apple",
-        "url": "http://www.example.com/apple-ipad-air-2020",
-        "type": "Tablet",
-        "image": "https://i.postimg.cc/nz2R4tpT/Apple-i-Pad-Air-2020.jpg",
-        "customerReviewCount": 4000,
-        "shipping": "Free shipping",
-        "salePrice_range": "501 - 600",
-        "objectID": "ipad2",
-        "categories": ["iPads"]
-      },
-      {
-        "name": "Samsung Galaxy Tab S7",
-        "shortDescription": "High-performance Android tablet.",
-        "bestSellingRank": 3,
-        "salePrice": 649.99,
-        "manufacturer": "Samsung",
-        "url": "http://www.example.com/samsung-galaxy-tab-s7",
-        "type": "Tablet",
-        "image": "https://i.postimg.cc/bJpVSvcs/Samsung-Galaxy-Tab-S7.jpg",
-        "customerReviewCount": 3500,
-        "shipping": "Free shipping",
-        "salePrice_range": "601 - 700",
-        "objectID": "ipad3",
-        "categories": ["iPads"]
-      },
-      {
-        "name": "Lenovo Tab P11",
-        "shortDescription": "Affordable tablet for everyday use.",
-        "bestSellingRank": 4,
-        "salePrice": 249.99,
-        "manufacturer": "Lenovo",
-        "url": "http://www.example.com/lenovo-tab-p11",
-        "type": "Tablet",
-        "image": "https://i.postimg.cc/Gp05rQXP/Lenovo-Tab-P11.jpg",
-        "customerReviewCount": 2000,
-        "shipping": "Free shipping",
-        "salePrice_range": "201 - 300",
-        "objectID": "ipad4",
-        "categories": ["iPads"]
-      },
-      {
-        "name": "Huawei MatePad Pro",
-        "shortDescription": "Premium tablet with great features.",
-        "bestSellingRank": 5,
-        "salePrice": 499.99,
-        "manufacturer": "Huawei",
-        "url": "http://www.example.com/huawei-matepad-pro",
-        "type": "Tablet",
-        "image": "https://i.postimg.cc/Nj2zWVkf/Huawei-Mate-Pad-Pro.jpg",
-        "customerReviewCount": 1500,
-        "shipping": "Free shipping",
-        "salePrice_range": "401 - 500",
-        "objectID": "ipad5",
-        "categories": ["iPads"]
-      }
-    ],
-    "LCDs": [
-      {
-        "name": "Samsung 55-Inch 4K UHD Smart TV",
-        "shortDescription": "Stunning picture quality and smart features.",
-        "bestSellingRank": 1,
-        "salePrice": 799.99,
-        "manufacturer": "Samsung",
-        "url": "http://www.example.com/samsung-55-inch-tv",
-        "type": "LCD",
-        "image": "https://i.postimg.cc/0NpHNw4T/Samsung-55-Inch-4-K-UHD-Smart-TV.jpg",
-        "customerReviewCount": 8000,
-        "shipping": "Free shipping",
-        "salePrice_range": "701 - 800",
-        "objectID": "lcd1",
-        "categories": ["LCDs"]
-      },
-      {
-        "name": "LG 65-Inch OLED Smart TV",
-        "shortDescription": "Exceptional color and contrast.",
-        "bestSellingRank": 2,
-        "salePrice": 2499.99,
-        "manufacturer": "LG",
-        "url": "http://www.example.com/lg-65-inch-tv",
-        "type": "LCD",
-        "image": "https://i.postimg.cc/0yMJ7gpv/LG-65-Inch-OLED-Smart-TV.jpg",
-        "customerReviewCount": 5000,
-        "shipping": "Free shipping",
-        "salePrice_range": "2401 - 2500",
-        "objectID": "lcd2",
-        "categories": ["LCDs"]
-      },
-      {
-        "name": "Sony 50-Inch 4K UHD Smart TV",
-        "shortDescription": "Great for gaming and movies.",
-        "bestSellingRank": 3,
-        "salePrice": 899.99,
-        "manufacturer": "Sony",
-        "url": "http://www.example.com/sony-50-inch-tv",
-        "type": "LCD",
-        "image": "https://i.postimg.cc/wTvPk3tN/Sony-50-Inch-4-K-UHD-Smart-TV.jpg",
-        "customerReviewCount": 3000,
-        "shipping": "Free shipping",
-        "salePrice_range": "801 - 900",
-        "objectID": "lcd3",
-        "categories": ["LCDs"]
-      },
-      {
-        "name": "TCL 65-Inch 4K UHD Smart TV",
-        "shortDescription": "Affordable large-screen TV.",
-        "bestSellingRank": 4,
-        "salePrice": 599.99,
-        "manufacturer": "TCL",
-        "url": "http://www.example.com/tcl-65-inch-tv",
-        "type": "LCD",
-        "image": "https://i.postimg.cc/GtMfCnf9/TCL-65-Inch-4-K-UHD-Smart-TV.jpg",
-        "customerReviewCount": 4000,
-        "shipping": "Free shipping",
-        "salePrice_range": "501 - 600",
-        "objectID": "lcd4",
-        "categories": ["LCDs"]
-      },
-      {
-        "name": "Vizio 75-Inch 4K Smart TV",
-        "shortDescription": "Large TV with great performance.",
-        "bestSellingRank": 5,
-        "salePrice": 1599.99,
-        "manufacturer": "Vizio",
-        "url": "http://www.example.com/vizio-75-inch-tv",
-        "type": "LCD",
-        "image": "https://i.postimg.cc/c1T2YfJZ/Vizio-75-Inch-4-K-Smart-TV.jpg",
-        "customerReviewCount": 2500,
-        "shipping": "Free shipping",
-        "salePrice_range": "1501 - 1600",
-        "objectID": "lcd5",
-        "categories": ["LCDs"]
+        "id": 305,
+        "name": "Fruit Salad with Honey-Lime Dressing",
+        "image": "https://i.postimg.cc/QMBBK2hm/fruit-salad.jpg",
+        "description": "A refreshing mix of seasonal fruits drizzled with a sweet-tangy dressing.",
+        "ingredients": [
+          {"name": "Mixed fruits", "quantity": "4 cups", "description": "Chopped (e.g., berries, melons, and grapes)"},
+          {"name": "Lime juice", "quantity": "2 tablespoons", "description": "Freshly squeezed"},
+          {"name": "Honey", "quantity": "1 tablespoon", "description": "Raw and organic"},
+          {"name": "Mint leaves", "quantity": "2 tablespoons", "description": "Chopped (optional)"}
+        ],
+        "instructions": [
+          "Combine chopped fruits in a large bowl.",
+          "Mix lime juice and honey in a small bowl to make the dressing.",
+          "Pour dressing over fruits and toss gently to combine.",
+          "Garnish with mint leaves before serving."
+        ],
+        "preparation_time": "10 minutes",
+        "cooking_time": "0 minutes",
+        "total_time": "10 minutes",
+        "difficulty": "Easy",
+        "serving_size": "4",
+        "nutritional_info": {
+          "calories": "90 kcal per serving",
+          "fat": "0g",
+          "carbohydrates": "24g",
+          "protein": "1g",
+          "fiber": "4g"
+        },
+        "allergens": [],
+        "tags": ["Vegan", "Gluten-Free", "Nut-Free"]
       }
     ]
-  }
-}
+  },
+  {
+    "id": 4,
+    "name": "Main Course",
+    "filters": {
+      "preparation_time": ["<30 minutes", "30-60 minutes", "60+ minutes"],
+      "difficulty": ["Easy", "Medium", "Hard"],
+      "dietary": ["Vegetarian", "Vegan", "Non-Vegetarian"],
+      "allergens": ["Dairy-Free", "Nut-Free", "Gluten-Free"]
+    },
+    "recipes": [
+      {
+        "id": 401,
+        "name": "Grilled Chicken Breast",
+        "image": "https://i.postimg.cc/5Nnj74tp/grilled-chicken-breast.jpg",
+        "description": "Juicy and tender grilled chicken breast marinated with herbs and spices.",
+        "ingredients": [
+          {"name": "Chicken breasts", "quantity": "2", "description": "Boneless and skinless"},
+          {"name": "Olive oil", "quantity": "2 tablespoons", "description": "For marinating"},
+          {"name": "Garlic", "quantity": "3 cloves", "description": "Minced"},
+          {"name": "Lemon", "quantity": "1", "description": "Zested and juiced"},
+          {"name": "Fresh rosemary", "quantity": "1 tablespoon", "description": "Chopped"}
+        ],
+        "instructions": [
+          "Mix olive oil, garlic, lemon zest, lemon juice, and rosemary in a bowl.",
+          "Marinate chicken breasts in the mixture for at least 30 minutes.",
+          "Preheat the grill to medium-high heat.",
+          "Grill chicken for 6-7 minutes per side, until fully cooked.",
+          "Serve with a side of roasted vegetables."
+        ],
+        "preparation_time": "10 minutes",
+        "cooking_time": "15 minutes",
+        "total_time": "25 minutes",
+        "difficulty": "Easy",
+        "serving_size": "2",
+        "nutritional_info": {
+          "calories": "250 kcal per serving",
+          "fat": "12g",
+          "carbohydrates": "2g",
+          "protein": "35g",
+          "fiber": "1g"
+        },
+        "allergens": ["None"],
+        "tags": ["Non-Vegetarian"]
+      },
+      {
+        "id": 402,
+        "name": "Vegetarian Stir-Fry",
+        "image": "https://i.postimg.cc/ZYLqnb6Z/vegetarian-stir-fry.jpg",
+        "description": "A colorful and healthy stir-fry packed with fresh vegetables and a savory sauce.",
+        "ingredients": [
+          {"name": "Bell peppers", "quantity": "2", "description": "Chopped"},
+          {"name": "Carrots", "quantity": "1", "description": "Sliced into thin strips"},
+          {"name": "Broccoli", "quantity": "1 cup", "description": "Florets"},
+          {"name": "Tofu", "quantity": "200g", "description": "Pressed and cubed"},
+          {"name": "Soy sauce", "quantity": "2 tablespoons", "description": "Low sodium"}
+        ],
+        "instructions": [
+          "Heat a wok or large pan over medium-high heat and add a bit of oil.",
+          "Stir-fry tofu until golden brown, then set aside.",
+          "In the same pan, add bell peppers, carrots, and broccoli, stir-fry for 5 minutes.",
+          "Add tofu back to the pan along with soy sauce and stir until well combined.",
+          "Serve with steamed rice."
+        ],
+        "preparation_time": "10 minutes",
+        "cooking_time": "10 minutes",
+        "total_time": "20 minutes",
+        "difficulty": "Easy",
+        "serving_size": "3",
+        "nutritional_info": {
+          "calories": "200 kcal per serving",
+          "fat": "12g",
+          "carbohydrates": "20g",
+          "protein": "8g",
+          "fiber": "5g"
+        },
+        "allergens": ["Soy"],
+        "tags": ["Vegan", "Gluten-Free"]
+      },
+      {
+        "id": 403,
+        "name": "Beef Steak with Garlic Butter",
+        "image": "https://i.postimg.cc/SQLn97FB/beef-steak-with-garlic-butter.jpg",
+        "description": "Tender and juicy beef steak served with a rich garlic butter sauce.",
+        "ingredients": [
+          {"name": "Beef steaks", "quantity": "2", "description": "Ribeye or sirloin"},
+          {"name": "Garlic", "quantity": "4 cloves", "description": "Minced"},
+          {"name": "Butter", "quantity": "3 tablespoons", "description": "Unsalted"},
+          {"name": "Fresh thyme", "quantity": "1 tablespoon", "description": "Chopped"},
+          {"name": "Olive oil", "quantity": "1 tablespoon", "description": "For searing"}
+        ],
+        "instructions": [
+          "Preheat a skillet over medium-high heat and add olive oil.",
+          "Sear the steaks for 4-5 minutes on each side, depending on desired doneness.",
+          "Remove steaks from the skillet and set aside to rest.",
+          "In the same skillet, melt butter and sauté garlic and thyme.",
+          "Pour the garlic butter over the steaks and serve."
+        ],
+        "preparation_time": "5 minutes",
+        "cooking_time": "10 minutes",
+        "total_time": "15 minutes",
+        "difficulty": "Medium",
+        "serving_size": "2",
+        "nutritional_info": {
+          "calories": "350 kcal per serving",
+          "fat": "28g",
+          "carbohydrates": "2g",
+          "protein": "30g",
+          "fiber": "0g"
+        },
+        "allergens": ["Dairy"],
+        "tags": ["Non-Vegetarian"]
+      },
+      {
+        "id": 404,
+        "name": "Spaghetti Aglio e Olio",
+        "image": "https://i.postimg.cc/9FWrYRcr/spaghetti-aglio-olio.jpg",
+        "description": "A classic Italian pasta dish with garlic, olive oil, and red pepper flakes.",
+        "ingredients": [
+          {"name": "Spaghetti", "quantity": "200g", "description": "Dry"},
+          {"name": "Olive oil", "quantity": "4 tablespoons", "description": "Extra virgin"},
+          {"name": "Garlic", "quantity": "6 cloves", "description": "Thinly sliced"},
+          {"name": "Red pepper flakes", "quantity": "1 teaspoon", "description": "For heat"},
+          {"name": "Parsley", "quantity": "1 tablespoon", "description": "Chopped"}
+        ],
+        "instructions": [
+          "Cook spaghetti according to package instructions.",
+          "Heat olive oil in a pan and sauté garlic until golden brown.",
+          "Add red pepper flakes and sauté for another 30 seconds.",
+          "Add cooked spaghetti to the pan and toss well to coat.",
+          "Garnish with parsley and serve."
+        ],
+        "preparation_time": "5 minutes",
+        "cooking_time": "10 minutes",
+        "total_time": "15 minutes",
+        "difficulty": "Easy",
+        "serving_size": "2",
+        "nutritional_info": {
+          "calories": "350 kcal per serving",
+          "fat": "16g",
+          "carbohydrates": "45g",
+          "protein": "8g",
+          "fiber": "3g"
+        },
+        "allergens": ["Gluten"],
+        "tags": ["Vegetarian"]
+      },
+      {
+        "id": 405,
+        "name": "Chicken Alfredo Pasta",
+        "image": "https://i.postimg.cc/ZnL0hZxb/chicken-alfredo-pasta.jpg",
+        "description": "Creamy pasta with grilled chicken, rich Alfredo sauce, and parmesan cheese.",
+        "ingredients": [
+          {"name": "Penne pasta", "quantity": "200g", "description": "Dry"},
+          {"name": "Chicken breast", "quantity": "1", "description": "Boneless and skinless, grilled"},
+          {"name": "Heavy cream", "quantity": "1 cup", "description": "For the sauce"},
+          {"name": "Parmesan cheese", "quantity": "1/2 cup", "description": "Grated"},
+          {"name": "Butter", "quantity": "2 tablespoons", "description": "For the sauce"}
+        ],
+        "instructions": [
+          "Cook the penne pasta according to package instructions.",
+          "Grill chicken breast and slice it into strips.",
+          "In a pan, melt butter, then add heavy cream and simmer.",
+          "Stir in grated parmesan cheese and cook until the sauce thickens.",
+          "Toss pasta and chicken in the sauce until well coated."
+        ],
+        "preparation_time": "10 minutes",
+        "cooking_time": "15 minutes",
+        "total_time": "25 minutes",
+        "difficulty": "Medium",
+        "serving_size": "3",
+        "nutritional_info": {
+          "calories": "450 kcal per serving",
+          "fat": "20g",
+          "carbohydrates": "50g",
+          "protein": "25g",
+          "fiber": "3g"
+        },
+        "allergens": ["Dairy", "Gluten"],
+        "tags": ["Non-Vegetarian"]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Snacks",
+    "filters": {
+      "preparation_time": ["<30 minutes", "30-60 minutes", "60+ minutes"],
+      "difficulty": ["Easy", "Medium", "Hard"],
+      "dietary": ["Vegetarian", "Vegan", "Non-Vegetarian"],
+      "allergens": ["Dairy-Free", "Nut-Free", "Gluten-Free"]
+    },
+    "recipes": [
+      {
+        "id": 501,
+        "name": "Cheese Nachos",
+        "image": "https://i.postimg.cc/gcwWFG4N/cheese-nachos.jpg",
+        "description": "Crispy nachos topped with melted cheese and served with salsa.",
+        "ingredients": [
+          {"name": "Tortilla chips", "quantity": "1 bag", "description": "Plain"},
+          {"name": "Cheddar cheese", "quantity": "1 cup", "description": "Shredded"},
+          {"name": "Salsa", "quantity": "1/2 cup", "description": "For dipping"}
+        ],
+        "instructions": [
+          "Preheat the oven to 350°F (175°C).",
+          "Spread tortilla chips on a baking sheet.",
+          "Top with shredded cheddar cheese.",
+          "Bake for 5-7 minutes until cheese is melted.",
+          "Serve with salsa on the side."
+        ],
+        "preparation_time": "5 minutes",
+        "cooking_time": "7 minutes",
+        "total_time": "12 minutes",
+        "difficulty": "Easy",
+        "serving_size": "2",
+        "nutritional_info": {
+          "calories": "250 kcal per serving",
+          "fat": "14g",
+          "carbohydrates": "25g",
+          "protein": "6g",
+          "fiber": "2g"
+        },
+        "allergens": ["Dairy"],
+        "tags": ["Vegetarian"]
+      },
+      {
+        "id": 502,
+        "name": "Veggie Spring Rolls",
+        "image": "https://i.postimg.cc/wj4yvq83/veggie-spring-rolls.jpg",
+        "description": "Crispy spring rolls stuffed with fresh vegetables.",
+        "ingredients": [
+          {"name": "Rice paper", "quantity": "6 sheets", "description": "For wrapping"},
+          {"name": "Carrots", "quantity": "1", "description": "Shredded"},
+          {"name": "Cucumber", "quantity": "1", "description": "Sliced into thin strips"},
+          {"name": "Lettuce", "quantity": "1/2 cup", "description": "Shredded"},
+          {"name": "Soy sauce", "quantity": "2 tablespoons", "description": "For dipping"}
+        ],
+        "instructions": [
+          "Soak rice paper in warm water for 5 seconds.",
+          "Lay rice paper flat and add veggies in the center.",
+          "Roll the rice paper tightly, folding in the sides.",
+          "Serve with soy sauce for dipping."
+        ],
+        "preparation_time": "10 minutes",
+        "cooking_time": "None",
+        "total_time": "10 minutes",
+        "difficulty": "Easy",
+        "serving_size": "2",
+        "nutritional_info": {
+          "calories": "100 kcal per serving",
+          "fat": "1g",
+          "carbohydrates": "20g",
+          "protein": "2g",
+          "fiber": "4g"
+        },
+        "allergens": ["Soy"],
+        "tags": ["Vegan", "Gluten-Free"]
+      },
+      {
+        "id": 503,
+        "name": "Mini Quesadillas",
+        "image": "https://i.postimg.cc/zf9yCxfr/mini-quesadillas.jpg",
+        "description": "Mini tortillas filled with cheese and served with salsa.",
+        "ingredients": [
+          {"name": "Flour tortillas", "quantity": "4", "description": "Small"},
+          {"name": "Cheddar cheese", "quantity": "1 cup", "description": "Shredded"},
+          {"name": "Salsa", "quantity": "1/2 cup", "description": "For dipping"}
+        ],
+        "instructions": [
+          "Heat a skillet over medium heat.",
+          "Place one tortilla in the skillet and sprinkle with cheese.",
+          "Top with another tortilla and cook for 2-3 minutes on each side until golden brown.",
+          "Cut into wedges and serve with salsa."
+        ],
+        "preparation_time": "5 minutes",
+        "cooking_time": "6 minutes",
+        "total_time": "11 minutes",
+        "difficulty": "Easy",
+        "serving_size": "2",
+        "nutritional_info": {
+          "calories": "300 kcal per serving",
+          "fat": "18g",
+          "carbohydrates": "30g",
+          "protein": "12g",
+          "fiber": "2g"
+        },
+        "allergens": ["Dairy", "Gluten"],
+        "tags": ["Vegetarian"]
+      },
+      {
+        "id": 504,
+        "name": "Chicken Wings",
+        "image": "https://i.postimg.cc/RFKNXw3n/chicken-wings.jpg",
+        "description": "Crispy chicken wings coated in a spicy sauce.",
+        "ingredients": [
+          {"name": "Chicken wings", "quantity": "10", "description": "Skinless"},
+          {"name": "Hot sauce", "quantity": "3 tablespoons", "description": "Spicy"},
+          {"name": "Olive oil", "quantity": "1 tablespoon", "description": "For frying"}
+        ],
+        "instructions": [
+          "Heat oil in a pan over medium heat.",
+          "Fry chicken wings for 8-10 minutes until golden brown and crispy.",
+          "Toss wings in hot sauce and serve."
+        ],
+        "preparation_time": "5 minutes",
+        "cooking_time": "10 minutes",
+        "total_time": "15 minutes",
+        "difficulty": "Medium",
+        "serving_size": "3",
+        "nutritional_info": {
+          "calories": "400 kcal per serving",
+          "fat": "28g",
+          "carbohydrates": "2g",
+          "protein": "30g",
+          "fiber": "0g"
+        },
+        "allergens": ["None"],
+        "tags": ["Non-Vegetarian"]
+      },
+      {
+        "id": 505,
+        "name": "Fruit Salad",
+        "image": "https://i.postimg.cc/QMBBK2hm/fruit-salad.jpg",
+        "description": "A fresh and colorful mix of seasonal fruits.",
+        "ingredients": [
+          {"name": "Apple", "quantity": "1", "description": "Chopped"},
+          {"name": "Banana", "quantity": "1", "description": "Sliced"},
+          {"name": "Grapes", "quantity": "1 cup", "description": "Seedless"},
+          {"name": "Orange", "quantity": "1", "description": "Peeled and segmented"}
+        ],
+        "instructions": [
+          "Chop all fruits into bite-sized pieces.",
+          "Toss fruits together in a large bowl.",
+          "Serve chilled."
+        ],
+        "preparation_time": "5 minutes",
+        "cooking_time": "None",
+        "total_time": "5 minutes",
+        "difficulty": "Easy",
+        "serving_size": "2",
+        "nutritional_info": {
+          "calories": "150 kcal per serving",
+          "fat": "0g",
+          "carbohydrates": "40g",
+          "protein": "1g",
+          "fiber": "6g"
+        },
+        "allergens": ["None"],
+        "tags": ["Vegan", "Gluten-Free"]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Beverages",
+    "filters": {
+      "type": ["Hot", "Cold", "Smoothies"],
+      "caffeine_content": ["Caffeinated", "Decaffeinated"],
+      "sweetness": ["Unsweetened", "Lightly Sweetened", "Sweetened"]
+    },
+    "recipes": [
+      {
+        "id": 601,
+        "name": "Classic Lemonade",
+        "image": "https://i.postimg.cc/yYP3MhLm/classic-lemonade.jpg",
+        "description": "Refreshing homemade lemonade with a perfect balance of sweetness and tartness.",
+        "ingredients": [
+          {"name": "Lemons", "quantity": "4", "description": "Freshly squeezed"},
+          {"name": "Sugar", "quantity": "1/2 cup", "description": "Granulated"},
+          {"name": "Water", "quantity": "4 cups", "description": "Cold"}
+        ],
+        "instructions": [
+          "In a pitcher, mix lemon juice and sugar until sugar dissolves.",
+          "Add cold water and stir well.",
+          "Serve chilled over ice."
+        ],
+        "preparation_time": "5 minutes",
+        "total_time": "5 minutes",
+        "difficulty": "Easy",
+        "serving_size": "4",
+        "nutritional_info": {
+          "calories": "80 kcal per serving",
+          "fat": "0g",
+          "carbohydrates": "21g",
+          "protein": "0g",
+          "fiber": "1g"
+        },
+        "tags": ["Cold", "Sweetened"]
+      },
+      {
+        "id": 602,
+        "name": "Iced Coffee",
+        "image": "https://i.postimg.cc/J0R4xvV9/Iced-Coffee.jpg",
+        "description": "Chilled coffee served over ice, perfect for a summer day.",
+        "ingredients": [
+          {"name": "Coffee", "quantity": "1 cup", "description": "Brewed and cooled"},
+          {"name": "Milk", "quantity": "1/2 cup", "description": "Optional"},
+          {"name": "Ice cubes", "quantity": "5-6", "description": "For serving"}
+        ],
+        "instructions": [
+          "Brew a cup of coffee and let it cool to room temperature.",
+          "Fill a glass with ice cubes and pour coffee over the ice.",
+          "Add milk if desired and stir well."
+        ],
+        "preparation_time": "10 minutes",
+        "total_time": "10 minutes",
+        "difficulty": "Easy",
+        "serving_size": "1",
+        "nutritional_info": {
+          "calories": "30 kcal per serving",
+          "fat": "0g",
+          "carbohydrates": "1g",
+          "protein": "0g",
+          "fiber": "0g"
+        },
+        "tags": ["Cold", "Caffeinated"]
+      },
+      {
+        "id": 603,
+        "name": "Green Smoothie",
+        "image": "https://i.postimg.cc/BnnP48zd/green-smoothie.jpg",
+        "description": "Healthy and delicious green smoothie packed with spinach and fruits.",
+        "ingredients": [
+          {"name": "Spinach", "quantity": "1 cup", "description": "Fresh"},
+          {"name": "Banana", "quantity": "1", "description": "Ripe"},
+          {"name": "Milk", "quantity": "1 cup", "description": "Or almond milk"},
+          {"name": "Honey", "quantity": "1 tablespoon", "description": "Optional"}
+        ],
+        "instructions": [
+          "Combine spinach, banana, milk, and honey in a blender.",
+          "Blend until smooth and creamy.",
+          "Pour into a glass and serve immediately."
+        ],
+        "preparation_time": "5 minutes",
+        "total_time": "5 minutes",
+        "difficulty": "Easy",
+        "serving_size": "2",
+        "nutritional_info": {
+          "calories": "150 kcal per serving",
+          "fat": "3g",
+          "carbohydrates": "30g",
+          "protein": "5g",
+          "fiber": "4g"
+        },
+        "tags": ["Cold", "Smoothies", "Sweetened"]
+      },
+      {
+        "id": 604,
+        "name": "Hot Chocolate",
+        "image": "https://i.postimg.cc/MHtZF5zX/Hot-Chocolate.jpg",
+        "description": "Rich and creamy hot chocolate topped with whipped cream.",
+        "ingredients": [
+          {"name": "Milk", "quantity": "2 cups", "description": "Whole or 2%"},
+          {"name": "Cocoa powder", "quantity": "2 tablespoons", "description": "Unsweetened"},
+          {"name": "Sugar", "quantity": "2 tablespoons", "description": "Adjust to taste"},
+          {"name": "Whipped cream", "quantity": "As needed", "description": "For topping"}
+        ],
+        "instructions": [
+          "Heat milk in a saucepan over medium heat until warm.",
+          "Whisk in cocoa powder and sugar until fully dissolved.",
+          "Pour into mugs and top with whipped cream."
+        ],
+        "preparation_time": "5 minutes",
+        "cooking_time": "5 minutes",
+        "total_time": "10 minutes",
+        "difficulty": "Easy",
+        "serving_size": "2",
+        "nutritional_info": {
+          "calories": "200 kcal per serving",
+          "fat": "8g",
+          "carbohydrates": "25g",
+          "protein": "6g",
+          "fiber": "2g"
+        },
+        "tags": ["Hot", "Sweetened"]
+      },
+      {
+        "id": 605,
+        "name": "Chamomile Tea",
+        "image": "https://i.postimg.cc/VvPb8KyR/chamomile-tea.jpg",
+        "description": "Relaxing herbal tea with a soothing aroma.",
+        "ingredients": [
+          {"name": "Chamomile tea bags", "quantity": "2", "description": "Or dried chamomile flowers"},
+          {"name": "Water", "quantity": "2 cups", "description": "Hot"},
+          {"name": "Honey", "quantity": "1 teaspoon", "description": "Optional"}
+        ],
+        "instructions": [
+          "Boil water and pour it over chamomile tea bags in a teapot.",
+          "Let steep for 5 minutes.",
+          "Strain into cups and sweeten with honey if desired."
+        ],
+        "preparation_time": "5 minutes",
+        "total_time": "5 minutes",
+        "difficulty": "Easy",
+        "serving_size": "2",
+        "nutritional_info": {
+          "calories": "10 kcal per serving",
+          "fat": "0g",
+          "carbohydrates": "2g",
+          "protein": "0g",
+          "fiber": "0g"
+        },
+        "tags": ["Hot", "Unsweetened"]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Seafood",
+    "filters": {
+      "type": ["Grilled", "Fried", "Baked", "Steamed"],
+      "spiciness": ["Mild", "Medium", "Spicy"],
+      "dietary": ["Gluten-Free", "Low-Carb"]
+    },
+    "recipes": [
+      {
+        "id": 701,
+        "name": "Grilled Salmon",
+        "image": "https://i.postimg.cc/nL5DdH0N/grilled-salmon.jpg",
+        "description": "Perfectly grilled salmon fillet with a tangy lemon-garlic marinade.",
+        "ingredients": [
+          {"name": "Salmon fillet", "quantity": "2", "description": "Skin-on, fresh"},
+          {"name": "Olive oil", "quantity": "2 tablespoons", "description": "Extra virgin"},
+          {"name": "Garlic", "quantity": "2 cloves", "description": "Minced"},
+          {"name": "Lemon juice", "quantity": "2 tablespoons", "description": "Freshly squeezed"},
+          {"name": "Salt", "quantity": "1 teaspoon", "description": "To taste"},
+          {"name": "Black pepper", "quantity": "1 teaspoon", "description": "Freshly ground"}
+        ],
+        "instructions": [
+          "Mix olive oil, garlic, lemon juice, salt, and pepper in a bowl.",
+          "Brush the marinade onto the salmon fillets and let sit for 10 minutes.",
+          "Grill the salmon on medium heat for 5-6 minutes per side.",
+          "Serve hot with a wedge of lemon."
+        ],
+        "preparation_time": "10 minutes",
+        "cooking_time": "12 minutes",
+        "total_time": "22 minutes",
+        "difficulty": "Easy",
+        "serving_size": "2",
+        "nutritional_info": {
+          "calories": "280 kcal per serving",
+          "fat": "18g",
+          "carbohydrates": "2g",
+          "protein": "26g",
+          "fiber": "0g"
+        },
+        "tags": ["Grilled", "Low-Carb", "Gluten-Free"]
+      },
+      {
+        "id": 702,
+        "name": "Shrimp Scampi",
+        "image": "https://i.postimg.cc/s21W9B9p/shrimp-scampi.jpg",
+        "description": "Classic shrimp scampi cooked in a garlic butter and white wine sauce.",
+        "ingredients": [
+          {"name": "Shrimp", "quantity": "1 lb", "description": "Peeled and deveined"},
+          {"name": "Butter", "quantity": "4 tablespoons", "description": "Unsalted"},
+          {"name": "Garlic", "quantity": "4 cloves", "description": "Minced"},
+          {"name": "White wine", "quantity": "1/4 cup", "description": "Dry"},
+          {"name": "Lemon juice", "quantity": "2 tablespoons", "description": "Freshly squeezed"},
+          {"name": "Parsley", "quantity": "2 tablespoons", "description": "Fresh, chopped"}
+        ],
+        "instructions": [
+          "Melt butter in a skillet over medium heat.",
+          "Add garlic and sauté until fragrant.",
+          "Add shrimp and cook until pink and opaque.",
+          "Pour in white wine and lemon juice, and simmer for 2 minutes.",
+          "Garnish with parsley and serve immediately."
+        ],
+        "preparation_time": "10 minutes",
+        "cooking_time": "8 minutes",
+        "total_time": "18 minutes",
+        "difficulty": "Easy",
+        "serving_size": "4",
+        "nutritional_info": {
+          "calories": "210 kcal per serving",
+          "fat": "12g",
+          "carbohydrates": "2g",
+          "protein": "23g",
+          "fiber": "0g"
+        },
+        "tags": ["Mild", "Gluten-Free"]
+      },
+      {
+        "id": 703,
+        "name": "Fried Calamari",
+        "image": "https://i.postimg.cc/zBgR69Qv/fried-calamari.jpg",
+        "description": "Crispy fried calamari served with a tangy marinara dipping sauce.",
+        "ingredients": [
+          {"name": "Calamari rings", "quantity": "1 lb", "description": "Fresh or thawed"},
+          {"name": "Flour", "quantity": "1 cup", "description": "All-purpose"},
+          {"name": "Eggs", "quantity": "2", "description": "Beaten"},
+          {"name": "Breadcrumbs", "quantity": "1 cup", "description": "Seasoned"},
+          {"name": "Salt", "quantity": "1 teaspoon", "description": "To taste"},
+          {"name": "Vegetable oil", "quantity": "For frying", "description": "Neutral-flavored"}
+        ],
+        "instructions": [
+          "Heat oil in a deep fryer or large pan to 350°F (175°C).",
+          "Coat calamari rings in flour, dip in beaten eggs, and roll in breadcrumbs.",
+          "Fry in batches until golden brown, about 2-3 minutes.",
+          "Drain on paper towels and sprinkle with salt before serving."
+        ],
+        "preparation_time": "15 minutes",
+        "cooking_time": "10 minutes",
+        "total_time": "25 minutes",
+        "difficulty": "Medium",
+        "serving_size": "4",
+        "nutritional_info": {
+          "calories": "250 kcal per serving",
+          "fat": "14g",
+          "carbohydrates": "18g",
+          "protein": "12g",
+          "fiber": "1g"
+        },
+        "tags": ["Fried", "Medium"]
+      },
+      {
+        "id": 704,
+        "name": "Steamed Mussels",
+        "image": "https://i.postimg.cc/gkq3Yb26/steamed-mussels.jpg",
+        "description": "Fresh mussels steamed in a flavorful broth of garlic and white wine.",
+        "ingredients": [
+          {"name": "Mussels", "quantity": "2 lbs", "description": "Fresh, cleaned"},
+          {"name": "Garlic", "quantity": "3 cloves", "description": "Minced"},
+          {"name": "White wine", "quantity": "1 cup", "description": "Dry"},
+          {"name": "Butter", "quantity": "2 tablespoons", "description": "Unsalted"},
+          {"name": "Parsley", "quantity": "2 tablespoons", "description": "Chopped"},
+          {"name": "Lemon wedges", "quantity": "For serving", "description": "Optional"}
+        ],
+        "instructions": [
+          "Melt butter in a large pot over medium heat.",
+          "Add garlic and sauté until fragrant.",
+          "Pour in white wine and bring to a simmer.",
+          "Add mussels, cover, and steam until they open, about 5-7 minutes.",
+          "Discard any unopened mussels, garnish with parsley, and serve with lemon wedges."
+        ],
+        "preparation_time": "10 minutes",
+        "cooking_time": "7 minutes",
+        "total_time": "17 minutes",
+        "difficulty": "Easy",
+        "serving_size": "4",
+        "nutritional_info": {
+          "calories": "190 kcal per serving",
+          "fat": "6g",
+          "carbohydrates": "4g",
+          "protein": "28g",
+          "fiber": "0g"
+        },
+        "tags": ["Steamed", "Low-Carb", "Gluten-Free"]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Breakfast",
+    "filters": {
+      "type": ["Quick", "Healthy", "Indulgent"],
+      "dietary": ["Vegetarian", "Vegan", "Non-Vegetarian"],
+      "cooking_time": ["<10 minutes", "10-20 minutes", "20+ minutes"]
+    },
+    "recipes": [
+      {
+        "id": 801,
+        "name": "Avocado Toast",
+        "image": "https://i.postimg.cc/4ypV7rvq/avocado-toast.jpg",
+        "description": "Creamy avocado spread on toasted bread, topped with chili flakes and lime.",
+        "ingredients": [
+          { "name": "Bread slices", "quantity": "2", "description": "Whole grain recommended" },
+          { "name": "Avocado", "quantity": "1", "description": "Ripe, mashed" },
+          { "name": "Lime", "quantity": "1", "description": "Juiced" },
+          { "name": "Chili flakes", "quantity": "1 tsp", "description": "Optional, for garnish" },
+          { "name": "Salt", "quantity": "To taste", "description": "For seasoning" }
+        ],
+        "instructions": [
+          "Toast the bread slices until golden brown.",
+          "Mash the avocado and mix with lime juice and salt.",
+          "Spread the avocado mixture onto the toasted bread.",
+          "Sprinkle chili flakes on top and serve immediately."
+        ],
+        "preparation_time": "5 minutes",
+        "cooking_time": "5 minutes",
+        "total_time": "10 minutes",
+        "difficulty": "Easy",
+        "serving_size": "1",
+        "nutritional_info": {
+          "calories": "250 kcal per serving",
+          "fat": "15g",
+          "carbohydrates": "20g",
+          "protein": "5g",
+          "fiber": "7g"
+        },
+        "allergens": ["Gluten"],
+        "tags": ["Vegetarian"]
+      },
+      {
+        "id": 802,
+        "name": "Pancakes",
+        "image": "https://i.postimg.cc/MZByFQk5/pancakes.jpg",
+        "description": "Fluffy and golden pancakes served with maple syrup and fresh berries.",
+        "ingredients": [
+          { "name": "Flour", "quantity": "1 cup", "description": "All-purpose" },
+          { "name": "Milk", "quantity": "1 cup", "description": "Dairy or plant-based" },
+          { "name": "Egg", "quantity": "1", "description": "Large" },
+          { "name": "Baking powder", "quantity": "1 tsp", "description": "For fluffiness" },
+          { "name": "Maple syrup", "quantity": "As needed", "description": "For serving" }
+        ],
+        "instructions": [
+          "Mix flour, milk, egg, and baking powder in a bowl until smooth.",
+          "Heat a non-stick pan over medium heat and pour batter to form pancakes.",
+          "Cook until bubbles appear, then flip and cook the other side.",
+          "Serve with maple syrup and fresh berries."
+        ],
+        "preparation_time": "10 minutes",
+        "cooking_time": "10 minutes",
+        "total_time": "20 minutes",
+        "difficulty": "Easy",
+        "serving_size": "2",
+        "nutritional_info": {
+          "calories": "300 kcal per serving",
+          "fat": "8g",
+          "carbohydrates": "45g",
+          "protein": "8g",
+          "fiber": "2g"
+        },
+        "allergens": ["Gluten", "Eggs"],
+        "tags": ["Vegetarian"]
+      },
+      {
+        "id": 803,
+        "name": "Breakfast Burrito",
+        "image": "https://i.postimg.cc/RFkw0Mtw/breakfast-burrito.jpg",
+        "description": "A hearty burrito filled with eggs, cheese, and veggies.",
+        "ingredients": [
+          { "name": "Tortilla", "quantity": "1", "description": "Large" },
+          { "name": "Eggs", "quantity": "2", "description": "Scrambled" },
+          { "name": "Cheese", "quantity": "1/4 cup", "description": "Shredded" },
+          { "name": "Bell peppers", "quantity": "1/4 cup", "description": "Chopped" },
+          { "name": "Salsa", "quantity": "2 tbsp", "description": "For topping" }
+        ],
+        "instructions": [
+          "Scramble eggs in a pan with chopped bell peppers.",
+          "Warm the tortilla and place the scrambled eggs and cheese inside.",
+          "Roll the tortilla tightly into a burrito.",
+          "Top with salsa and serve."
+        ],
+        "preparation_time": "10 minutes",
+        "cooking_time": "10 minutes",
+        "total_time": "20 minutes",
+        "difficulty": "Easy",
+        "serving_size": "1",
+        "nutritional_info": {
+          "calories": "400 kcal per serving",
+          "fat": "18g",
+          "carbohydrates": "35g",
+          "protein": "20g",
+          "fiber": "3g"
+        },
+        "allergens": ["Eggs", "Dairy", "Gluten"],
+        "tags": ["Non-Vegetarian"]
+      },
+      {
+        "id": 804,
+        "name": "Smoothie Bowl",
+        "image": "https://i.postimg.cc/yYzF48sH/smoothie-bowl.jpg",
+        "description": "A refreshing bowl of blended fruits and topped with granola, seeds, and coconut flakes.",
+        "ingredients": [
+          { "name": "Frozen berries", "quantity": "1 cup", "description": "Mixed, such as strawberries and blueberries" },
+          { "name": "Banana", "quantity": "1", "description": "Frozen" },
+          { "name": "Almond milk", "quantity": "1/2 cup", "description": "Or any preferred plant-based milk" },
+          { "name": "Granola", "quantity": "1/4 cup", "description": "For topping" },
+          { "name": "Chia seeds", "quantity": "1 tsp", "description": "For topping" }
+        ],
+        "instructions": [
+          "Blend frozen berries, banana, and almond milk until smooth.",
+          "Pour the smoothie mixture into a bowl.",
+          "Top with granola, chia seeds, and coconut flakes.",
+          "Serve immediately."
+        ],
+        "preparation_time": "5 minutes",
+        "cooking_time": "0 minutes",
+        "total_time": "5 minutes",
+        "difficulty": "Easy",
+        "serving_size": "1",
+        "nutritional_info": {
+          "calories": "250 kcal per serving",
+          "fat": "12g",
+          "carbohydrates": "30g",
+          "protein": "4g",
+          "fiber": "7g"
+        },
+        "allergens": ["Nuts"],
+        "tags": ["Vegan"]
+      },
+      {
+        "id": 805,
+        "name": "Overnight Oats",
+        "image": "https://i.postimg.cc/FHr3zCYC/overnight-oats.jpg",
+        "description": "A simple and healthy make-ahead breakfast of oats soaked in almond milk with chia seeds and honey.",
+        "ingredients": [
+          { "name": "Oats", "quantity": "1/2 cup", "description": "Rolled oats" },
+          { "name": "Almond milk", "quantity": "1/2 cup", "description": "Or any plant-based milk" },
+          { "name": "Chia seeds", "quantity": "1 tbsp", "description": "For added fiber" },
+          { "name": "Honey", "quantity": "1 tbsp", "description": "For sweetness" },
+          { "name": "Fresh fruit", "quantity": "1/2 cup", "description": "Optional, for topping" }
+        ],
+        "instructions": [
+          "Combine oats, almond milk, chia seeds, and honey in a jar or bowl.",
+          "Mix well, then cover and refrigerate overnight.",
+          "In the morning, top with fresh fruit and serve."
+        ],
+        "preparation_time": "5 minutes",
+        "cooking_time": "0 minutes",
+        "total_time": "5 minutes (overnight soak)",
+        "difficulty": "Easy",
+        "serving_size": "1",
+        "nutritional_info": {
+          "calories": "200 kcal per serving",
+          "fat": "8g",
+          "carbohydrates": "28g",
+          "protein": "6g",
+          "fiber": "6g"
+        },
+        "allergens": ["Nuts"],
+        "tags": ["Vegan", "Healthy"]
+      }
+    ]
+  }  
+]
+  
